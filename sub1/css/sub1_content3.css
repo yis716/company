@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/* 기업연혁 페이지 내용영역 */
+
+.content_area{
+    width: 100%;
+}
+.content_area .history_nav{
+    width:100%;
+    margin-bottom: 150px;
+    padding-top: 80px;
+}
+.content_area .navOn{
+    width: 100%;
+    position: fixed;
+    top: -30px;
+    /* left: 0; */
+    background: rgba(255,255,255,.9);
+    z-index: 80;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    transition: all .5s ;
+}
+.content_area .history_nav.navOn ul li a{
+    font-size: 1.3rem;
+    padding: 10px 0;
+    margin: 15px 30px;
+}
+.content_area .history_nav ul{
+    width: 1200px; margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content_area .history_nav ul li{
+    width: 25%;
+    text-align: center;
+}
+.content_area .history_nav ul li a{
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: 20px 0;
+    border-radius: 30px;
+    transition: all .7s ease-out;
+}
+.content_area .history_nav ul li a:hover{
+    background: #037AFE;
+    color: #fff;
+}
+.content_area .history_nav ul li a.spy{
+    background: #037AFE;
+    color: #fff;
+}
+/* history 영역 */
+.content_area .history{
+    width: 1400px;
+    margin: 0 auto;
+}
+.content_area .history img{
+    margin-bottom: 200px;
+}
+.content_area .history .his_2023s{
+    margin-bottom: 100px;
+}
+.content_area .history .his_2018s{
+    margin-bottom: 100px;
+} 
+.content_area .history .his_2010s{
+    margin-bottom: 100px;
+} 
+.content_area .history .his_1997s{
+    margin-bottom: 200px;
+} 
+/* ul span */
+.history ul{
+    width: 850px;
+    position: relative;
+    left: 650px; top: -50px;
+}
+.history span{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+.history span::before{
+    content: '';
+    display: block;
+    width: 250px;
+    height: 5px;
+    position: absolute;
+    left: 250px;
+    top: 35px;
+    background: #037AFE;
+}
+.history span::after{
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    left: 480px;
+    top: 19px;
+    background: #037AFE;
+}
+/* history list 영역 */
+.history ul li dl{
+    display: flex;
+}
+.history ul li dl dt{
+    width: 120px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 50px;
+}
+.history ul li dl dd{
+    font-size: 1.5rem;
+    line-height: 140%;
+    color: #555;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+.text{position: fixed; right:0; top: 0;
+           font-size: 50px; z-index: 100}

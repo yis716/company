@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* CEO인사말 페이지 내용영역 */
+.content_area{
+    width: 2000px; height: 1300px;
+    position: relative; left: 50%; top: 0;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+.content_area .con_left{
+    float: left;
+    transform: translateX(350px);
+}
+.content_area .con_left .left_top .txt1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.content_area .con_left .left_top .txt1 span:nth-child(1){
+    font-family: "Roboto", sans-serif;
+    color: #0071BB;
+}
+.content_area .con_left .left_top .txt1 span:nth-child(2){
+    color: #807F83;
+}
+.content_area .con_left .left_top .txt2{
+    font-size: 1.1rem;
+    margin-bottom: 100px;
+}
+.content_area .con_left .left_bottom{
+    width: 720px; height: 800px;
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,.4);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.content_area .con_left .bottom_inner{
+    height: 660px;
+    padding: 70px 30px;
+}
+.content_area .con_left .bottom_inner p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #037AFE;
+    margin-bottom: 30px;
+}
+.content_area .con_left .bottom_inner span{
+    font-size: 1rem;
+}
+.content_area .con_left .bottom_inner .inner1{
+    margin-bottom: 80px;
+}
+.content_area .con_left .bottom_inner .inner2{
+    margin-bottom: 80px;
+}
+.content_area .con_right{
+    float: right;
+    position: relative;
+}
+.content_area .con_right img:nth-child(1){
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,.2);
+}
+.content_area .con_right img:nth-child(2){
+    position: absolute; right: 160px; bottom: 110px;
+}
+.content_area .con_right p{
+    font-size: 2rem;
+    position: absolute; right:100px; top: 150px;
+}
+.content_area .con_right .p{
+    transform: translateX(-110px);
+}

@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* GS THE FRESH 페이지 내용영역 */
+.title_area h2{
+    font-family: "Roboto", sans-serif;
+    color: #216E57;
+}
+.title_area p{
+    font-size: 1rem;
+}
+.title_area p span{
+    font-family: "Roboto", sans-serif;
+}
+#content .title_area p::after{
+    content: '';
+    display: block;
+    width: 3px; height: 100px;
+    background: #216E57;
+    position: absolute; left: 50%; top: 100px;
+}
+
+.content_area{width: 100%;}
+
+.content_area .content_container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.content_area .content_container p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.content_area .content_container>p:nth-of-type(2){
+    color: #216E57;
+    margin-bottom: 100px;
+    font-family: "Roboto", sans-serif;
+}
+.content_area .content_container>p span{
+    font-family: "Roboto", sans-serif;
+}
+.content_area .content_container>img{
+    border-radius: 50px;
+    margin-bottom: 200px;
+}
+.content_area .content_fff{
+    background: url(../images/content2/gsthefresh_logo.png) no-repeat ;
+    width: 600px; height: 100px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.content_area .con_top{
+    margin-bottom: 200px;
+}
+.content_area .con_top ul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+.content_area .con_top .top_right{
+    box-shadow: 15px 15px 5px 5px rgba(0,0,0,.4);
+}
+.content_area .con_top .top_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content_area .con_top .top_left dl{
+    margin-bottom: 70px;
+}
+.content_area .con_top .top_left dl:nth-child(1){
+    margin-top: 80px;
+}
+.content_area .con_top .top_left dt{
+    font-size: 1.88rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.content_area .con_top .top_left dt span{
+    color: #216E57;
+}
+.content_area .con_top .top_left dd{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+.content_area .con_mid{
+    margin-bottom: 250px;
+}
+.content_area .con_mid ul{
+    display: flex;
+    gap: 30px;
+}
+.content_area .con_mid .mid_left{
+    box-shadow: -15px 15px 5px 5px rgba(0,0,0,.4);
+}
+.content_area .con_mid .mid_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content_area .con_mid .mid_right dt{
+    font-size: 1.88rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.content_area .con_mid .mid_right dt span{
+    color: #216E57;
+}
+.content_area .con_mid .mid_right dd{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.content_area .content_inner p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 200px;
+}
+.content_area .content_inner p span{
+    color: #216E57;
+}
+
+.content_area .con_bottom{
+    width: 2000px;
+    position: relative; left: 50%; top: 0;
+    transform: translateX(-50%);
+}
+.content_area .con_bottom .bottom_inner{
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+.content_area .bottom_left{
+    float: left;
+    transform: translateX(100px);
+    box-sizing: border-box;
+}
+.content_area .bottom_left ul{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.content_area .bottom_left ul li{
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.content_area .bottom_left .left_txt1{
+    border: 10px solid #037AFE;
+}
+.content_area .bottom_left .left_txt2{
+    border: 10px solid #99CC00;
+}
+.content_area .bottom_left .left_txt3{
+    border: 10px solid #F5831B;
+}
+.content_area .bottom_left dl{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.content_area .bottom_left dt{
+    font-size: 2rem;
+    margin: 60px 0 30px;
+}
+.content_area .bottom_left .left_txt1 dt{
+    color: #037AFE;
+}
+.content_area .bottom_left .left_txt2 dt{
+    color: #99CC00;
+}
+.content_area .bottom_left .left_txt3 dt{
+    color: #F5831B;
+}
+.content_area .bottom_left dd{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.content_area .bottom_left .left_txt3 dd::before{
+    content: '';
+    display: block;
+    width: 120px; height: 50px;
+    background: #d9d9d9;
+    border-radius: 50px;
+    position: absolute; left: 330px; top: 10px;
+}
+.content_area .bottom_left .left_txt3 dd::after{
+    content: '';
+    display: block;
+    width: 120px; height: 50px;
+    background: #d9d9d9;
+    border-radius: 50px;
+    position: absolute; left: 330px; top: 100px;
+}
+.content_area .bottom_right{
+    float: right;
+}
+.content_area .bottom_right img{
+    border-radius: 30px 0 0 30px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);
+}
