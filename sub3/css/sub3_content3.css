@@ -1,3 +1,12 @@
 @charset "utf-8";
 
-/* ESG전략 페이지 내용영역 */
+/* S(사회책임) 페이지 내용영역 */
+
+.content_area{
+    width: 100%;
+}
+
+.content_area .content_container{
+    width: 100%;
+    margin: 0 auto;
+}
