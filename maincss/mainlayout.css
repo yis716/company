@@ -1,9 +1,7 @@
 @charset "utf-8";
 
 /* 메인레이아웃 */
-.wrap{
-    width: 100%; overflow: hidden;
-}
+
 
 /* 비주얼영역 */
 .visual{
@@ -291,9 +289,12 @@ color: #fff;
      margin-bottom: 20px;
     display: block;
 }
-#content .brand .brand_inner{
+#content .brand .brand_inner {
     border-top: 1px solid #ccc;
-    overflow: hidden;
+    display: flex;
+    height: 2200px;
+    position: relative;
+    box-sizing: border-box;
 }
 #content .brand .brand_inner::after{
     content: '';
@@ -308,19 +309,25 @@ color: #fff;
     border-radius: 40% 50% 50% 40%;
 }
 #content .brand .inner_left{
-    position: relative;
+    /* position: relative; */
     width: 200px;
 }
-#content .brand .brand_inner .more{
+#content .brand .brand_inner .more {
     width: 180px;
-    position: absolute; left: 0; top: 20px;
-    font-size: 1rem; padding: 10px 10px;
+    position: sticky;
+    left: 0;
+    top: 100px;
+    font-size: 1rem;
+    padding: 10px 10px;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 20px;
     box-sizing: border-box;
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 1s ease-out;
+    margin-top: 20px;
 }
 #content .brand .brand_inner .inner_left:hover .more{
     color: #fff;
