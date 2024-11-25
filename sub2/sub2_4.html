@@ -160,7 +160,7 @@
                             <div class="use_top">
                                 <p>온라인</p>
                                 <ul class="top_inner">
-                                    <li class="top_box1">
+                                    <li class="top_box1" data-aos="fade-right" data-aos-duration="1000">
                                         <dl>
                                             <dt>STEP 1</dt>
                                             <dd>
@@ -171,8 +171,8 @@
                                         </dl>
                                         <span class="step_box"></span>
                                     </li>
-                                    <li class="top_box2">
-                                        <dl>
+                                    <li class="top_box2"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                                        <dl >
                                             <dt>STEP 2</dt>
                                             <dd>
                                                 등록된<br>
@@ -187,7 +187,7 @@
                             <div class="use_bottom">
                                 <p>오프라인</p>
                                 <ul class="bottom_inner">
-                                    <li class="bottom_box1">
+                                    <li class="bottom_box1" data-aos="fade-right" data-aos-duration="1000">
                                         <dl>
                                             <dt>STEP 1</dt>
                                             <dd>
@@ -198,7 +198,7 @@
                                         </dl>
                                          <span class="step_box"></span>
                                     </li>
-                                    <li class="bottom_box2">
+                                    <li class="bottom_box2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                                         <dl>
                                             <dt>STEP 2</dt>
                                             <dd>
@@ -208,7 +208,7 @@
                                         </dl>
                                         <span class="step_box"></span>
                                     </li>
-                                    <li class="bottom_box3">
+                                    <li class="bottom_box3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                                         <dl>
                                             <dt>STEP 3</dt>
                                             <dd>
@@ -318,5 +318,10 @@
     <script src="../common/js/jquery.easing.1.3.js"></script>
     <script src="../common/js/aos.js"></script>
     <script src="../common/js/common.js"></script>
+    <script>
+        AOS.init({
+      easing: 'ease-in-out-sine'
+    });
+    </script>
 </body>
 </html>
