@@ -83,6 +83,18 @@ $(".ps").click(function () {
 
 
 
+//사업소개
+var buss_top = $('#content .brand .brand_inner').offset().top;
+var not_top =  $('#content .notice').offset().top;
+$(window).on('scroll', function () {
+  var scroll = $(window).scrollTop();
+  
+  if (scroll > buss_top - 90 && scroll < not_top -150) {
+    $('#content .brand .brand_inner .more').addClass('fix');
+  } else {
+    $('#content .brand .brand_inner .more').removeClass('fix');
+  }   
+});
 
 
 

@@ -50,7 +50,7 @@ font-family: "Roboto", sans-serif;
 
 .wrap{
     width: 100%; 
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* 헤더 공통 css */
