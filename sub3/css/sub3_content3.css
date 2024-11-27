@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* S(사회책임) 페이지 내용영역 */
-
 .content_area{
     width: 100%;
 }
@@ -19,6 +18,7 @@
 }
 .content_container .con_nav ul li{
     padding: 20px 0;
+    background: #037AFE;
 }
 .content_container .con_nav ul li a{
     width: 466.66px;
@@ -26,10 +26,10 @@
     font-weight: 500;
     text-align: center;
 }
-.content_container .con_nav .is_on{
-    background: #037AFE;
+.content_container .con_nav .tab1{
+
 }
-.content_container .con_nav .btn{
+.content_container .con_nav .tab1{
     color: #fff;
 }
 .content_container .con_txt{
@@ -37,10 +37,161 @@
     font-weight: 500;
     text-align: center;
 }
+
+/* tab1 */
+
 .content_container h3{
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+}
+.content_container .con_inner1 .con_top{
+    margin-bottom: 100px;
+}
+.content_container .con_inner1 .con_top ul{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.content_container .con_inner1 .con_top ul li{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.content_container .con_inner1 .con_top dt{
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.content_container .con_inner1 .con_top dd{
+    font-size: 1.3rem;
+}
+.content_container .con_inner1 .con_bottom{
+    margin-bottom: 200px; 
+}
+.content_container .con_inner1 .con_bottom ul{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+.content_container .con_inner1 .con_bottom li{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(108, 206, 245,.3);
+    text-align: center;
+}
+.content_container .con_inner1 .con_bottom span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1A6ECB;
+}
+.content_container .con_inner1 .con_img{
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    background: url(../images/content3/back1.jpg)no-repeat;
+    margin-bottom: 200px;
 }
 
-/* .content_container .con_img */
+/* tab2 */
+.content_container .con_inner2 .con_top{
+    margin-bottom: 150px;
+}
+.content_container .con_inner2 .con_top p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+.content_container .con_inner2 .con_top span{
+    color: #F5831B;
+}
+.content_container .con_inner2 .con_bottom{
+    margin-bottom: 200px;
+}
+.content_container .con_inner2 .con_bottom p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.content_container .con_inner2 .con_bottom ul{
+    width: 900px;
+    margin: 0 auto;
+}
+.content_container .con_inner2 .con_bottom li{
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+    position: relative;
+}
+.content_container .con_inner2 .con_bottom li::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 28px;
+    background: rgba(245, 131, 27,.3);
+    border-radius: 10px;
+    position: absolute;
+    top: -7px;
+    left: -35px;
+    z-index: -10;
+}
+.content_container .con_inner2 .con_img{
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    background: url(../images/content3/back2.jpg)no-repeat;
+    margin-bottom: 200px;
+}
+
+
+
+/* tab3 */
+.content_container .con_inner3 .con_top{
+    margin-bottom: 150px;
+}
+.content_container .con_inner3 p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+.content_container .con_inner3 .con_top span{
+    color: #F5831B;
+}
+.content_container .con_inner3 .con_bottom{
+    margin-bottom: 200px;
+}
+.content_container .con_inner3 .con_bottom ul{
+    display: flex;
+    justify-content: space-between;
+}
+.content_container .con_inner3 .con_bottom img{
+    margin-bottom: 50px;
+}
+.content_container .con_inner3 .con_bottom dl{
+    text-align: center;
+}
+.content_container .con_inner3 .con_bottom dt{
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #1A6ECB;
+}
+.content_container .con_inner3 .con_bottom dd{
+    font-size: 1.3rem;
+}
+.content_container .con_inner3 .con_img{
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    background: url(../images/content3/back3.jpg)no-repeat;
+    margin-bottom: 200px;
+}
