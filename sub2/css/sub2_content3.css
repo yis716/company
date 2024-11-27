@@ -59,17 +59,18 @@
     margin-bottom: 150px;
 }
 .content_area .con_brand h3{
-    font-size: 3rem;
+    font-size: 2.6rem;
+    font-weight: 600;
     margin-bottom: 150px;
 }
 .content_area .con_brand h3::after{
     content: '';
     display: block;
     width: 350px;
-    height: 5px;
+    height: 2px;
     border-radius: 30px;
-    background: #333;
-    position: absolute; left: 250px; top: 35px;
+    background: #d9d9d9;
+    position: absolute; left: 250px; top: 30px;
 }
 .content_area .con_brand ul{
     overflow: hidden;
@@ -97,17 +98,18 @@
     margin-bottom: 150px;
 }
 .content_area .con_point h3{
-    font-size: 3rem;
+    font-size: 2.6rem;
+    font-weight: 600;
     margin-bottom: 100px;
 }
 .content_area .con_point h3::after{
     content: '';
     display: block;
     width: 350px;
-    height: 5px;
+    height: 2px;
     border-radius: 30px;
-    background: #333;
-    position: absolute; left: 400px; top: 35px;
+    background: #d9d9d9;
+    position: absolute; left: 400px; top: 30px;
 }
 .content_area .con_point ul{
     display: flex;
@@ -177,8 +179,8 @@
     margin-bottom: 150px;
 }
 .content_area .con_ccm p:nth-child(1){
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.6rem;
+    font-weight: 600;
     margin-bottom: 50px;
 }
 .content_area .con_ccm p:nth-child(2){
@@ -190,10 +192,10 @@
     content: '';
     display: block;
     width: 350px;
-    height: 5px;
+    height: 2px;
     border-radius: 30px;
-    background: #333;
-    position: absolute; left: 750px; top: 35px;
+    background: #d9d9d9;
+    position: absolute; left: 750px; top: 30px;
 }
 .content_area .ccm_top{
     margin-bottom: 100px;
@@ -283,18 +285,18 @@
     margin-bottom: 150px;
 }
 .content_area .con_channel h3{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.6rem;
+    font-weight: 600;
     margin-bottom: 70px;
 }
 .content_area .con_channel h3::after{
     content: '';
     display: block;
     width: 350px;
-    height: 5px;
+    height: 2px;
     border-radius: 30px;
-    background: #333;
-    position: absolute; left: 320px; top: 35px;
+    background: #d9d9d9;
+    position: absolute; left: 320px; top: 30px;
 }
 .content_area .con_channel .ch_list1{
     position: relative;
@@ -354,18 +356,18 @@
     position: relative;
 }
 .content_area .con_program h3{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.6rem;
+    font-weight: 600;
     margin-bottom: 70px;
 }
 .content_area .con_program h3::after{
     content: '';
     display: block;
     width: 350px;
-    height: 5px;
+    height: 2px;
     border-radius: 30px;
-    background: #333;
-    position: absolute; left: 560px; top: 35px;
+    background: #d9d9d9;
+    position: absolute; left: 560px; top: 30px;
 }
 .content_area .con_program{
     margin-bottom: 100px;
@@ -389,7 +391,7 @@
     text-align: center;
 }
 .content_area .con_program dl dt{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 20px;
 }

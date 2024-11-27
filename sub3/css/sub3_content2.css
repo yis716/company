@@ -4,7 +4,6 @@
 .content_area{
     width: 100%;
 }
-
 .content_area .content_container{
     width: 100%;
     margin: 0 auto;
@@ -20,10 +19,11 @@
 }
 .content_area .con_outset p{
     font-size: 3.75rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     text-align: center;
     padding-top: 83px;
+    font-family: "Roboto", sans-serif;
 }
 .content_area .con_inner{
     width: 1400px;
@@ -34,6 +34,7 @@
 }
 .content_area .con_top h3{
     font-size: 2.5rem;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -50,7 +51,7 @@
     gap: 200px;
 }
 .content_area .con_top dt{
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 30px;
     font-family: "Roboto", sans-serif;
@@ -87,7 +88,7 @@
     left: -10px;
 }
 .content_area .con_top dd{
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
     position: relative;
     padding-left: 30px;
@@ -108,6 +109,7 @@
 }
 .content_area .con_mid h3{
     font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 50px;
 }
 .content_area .con_mid p{
@@ -133,7 +135,6 @@
     width: 40px;
     height: 10px;
     background: rgba(3,122,254,.4);
-    /* background: #81a7ff; */
     position: absolute;
     left: -27px;
     top: 10px;
@@ -147,7 +148,7 @@
     padding-left: 18px;
 }
 .content_area .con_bottom{
-    height: 850px;
+    height: 733px;
     margin-bottom: 200px;
 }
 .content_area .con_bottom ul{
@@ -155,25 +156,27 @@
 }
 .content_area .con_bottom ul li{
     display: block;
-    width: 1250px;
+    width: 780px;
     height: 250px;
-    /* background: rgba(249,249,249,.2); */
+    background: rgba(255,255,255,.8);
     border-radius: 50px;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
 }
 .content_area .con_bottom h3{
     font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 50px;
 }
 .content_area .con_bottom p{
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 71px 0 0 30px;
+    padding: 53px 0 0 33px;
     line-height: 150%;
 }
 .content_area .con_bottom img{
     position: absolute;
     right: 0;
-    top: 220px;
+    top: 125px;
     z-index: -10;
+    border-radius: 50px;
 }

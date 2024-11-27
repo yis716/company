@@ -58,7 +58,7 @@
     gap: 30px;
 }
 .content_area .con_top .top_right{
-    box-shadow: 15px 15px 5px 5px rgba(0,0,0,.4);
+    box-shadow: 15px 15px 10px 10px rgba(0,0,0,.1);
 }
 .content_area .con_top .top_left{
     display: flex;
@@ -93,7 +93,7 @@
     gap: 30px;
 }
 .content_area .con_mid .mid_left{
-    box-shadow: -15px 15px 5px 5px rgba(0,0,0,.4);
+    box-shadow: -15px 15px 10px 10px rgba(0,0,0,.1);
 }
 .content_area .con_mid .mid_right{
     display: flex;
@@ -121,26 +121,19 @@
 .content_area .content_inner p span{
     color: #216E57;
 }
-
 .content_area .con_bottom{
-    width: 2000px;
-    position: relative; left: 50%; top: 0;
-    transform: translateX(-50%);
+    width: 1400px;
+    margin: 0 auto;
 }
 .content_area .con_bottom .bottom_inner{
-    overflow: hidden;
     margin-bottom: 200px;
 }
 .content_area .bottom_left{
-    float: left;
-    transform: translateX(100px);
     box-sizing: border-box;
 }
 .content_area .bottom_left ul{
-    width: 1000px;
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: space-between;
 }
 .content_area .bottom_left ul li{
     width: 300px; height: 300px;
@@ -179,7 +172,7 @@
     font-size: 1.25rem;
     line-height: 2rem;
 }
-.content_area .bottom_left .left_txt3 dd::before{
+/* .content_area .bottom_left .left_txt3 dd::before{
     content: '';
     display: block;
     width: 120px; height: 50px;
@@ -194,11 +187,11 @@
     background: #d9d9d9;
     border-radius: 50px;
     position: absolute; left: 330px; top: 100px;
-}
-.content_area .bottom_right{
+} */
+/* .content_area .bottom_right{
     float: right;
 }
 .content_area .bottom_right img{
     border-radius: 30px 0 0 30px;
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);
-}
+} */
