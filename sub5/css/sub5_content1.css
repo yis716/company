@@ -58,6 +58,7 @@
 .content_area .content_container{
     width: 1400px;
     margin: 0 auto;
+    margin-bottom: 200px;
 }
 .content_area .content_container p{
     font-size: 1.5rem;
@@ -110,9 +111,6 @@
     font-size: 1.2rem;
     margin-bottom: 50px;
 }
-
-
-
 .content_way .way_img{
     position: relative;
 }
@@ -121,65 +119,78 @@
 }
 .content_way .way_img .text1{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
+    top: 96px;
+        left: 346px;
 }
 .content_way .way_img .text2{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 330px;
+    top: 96px;
+        left: 284px;
 }
 .content_way .way_img .text3{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
+    top: 96px;
+        left: 302px;
 }
 .content_way .way_img .text4{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
+    top: 96px;
+        left: 380px;
 }
 .content_way .way_img .text5{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
+    top: 96px;
+        left: 427px;
 }
 .content_way .way_img .text6{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
+    top: 96px;
+        left: 363px;
 }
 .content_way .way_img .text7{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
+    top: 96px;
+        left: 446px;
 }
 .content_way .way_img .text8{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     position: absolute;
-    top: 97px;
-    left: 347px;
-}
+    top: 96px;
+        left: 365px;
+    }
+        .content_career {
+            width: 2000px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        .content_career p {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #fff;
+        }
