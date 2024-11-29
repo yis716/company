@@ -15,7 +15,7 @@
     left: 50%;
     transform: translateX(-50%);
     background: url(../images/content2/green1.jpg);
-    margin: 150px 0;
+    margin-bottom: 150px;
 }
 .content_area .con_outset p{
     font-size: 3.75rem;

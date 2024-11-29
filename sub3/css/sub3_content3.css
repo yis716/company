@@ -21,7 +21,7 @@
     border: 1px solid #d9d9d9;
     border-radius: 30px;
 }
-.content_container .con_nav ul li a{
+.content_container .con_nav ul li{
     width: 400px;
     font-size: 2rem;
     font-weight: 500;
@@ -29,7 +29,7 @@
     padding: 20px 0;
     transition: all .5s ease-out;
 }
-.content_container .con_nav li:hover .tab{
+.content_container .con_nav .tab:hover {
     background: #037AFE;
     color: #fff;
 }
@@ -74,7 +74,7 @@
 .content_container .con_inner1 .con_top dt{
     font-size: 1.875rem;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .content_container .con_inner1 .con_top dd{
     font-size: 1.3rem;
@@ -192,7 +192,7 @@
 }
 .content_container .con_inner3 .con_bottom dt{
     font-size: 1.875rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 30px;
     color: #1A6ECB;
 }
