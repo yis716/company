@@ -5,10 +5,10 @@
     width: 100%;
 }
 .content_area > p{
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 500;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .content_area .content_intro{
     width: 2000px;
@@ -102,23 +102,84 @@
 }
 .content_area .content_way dt{
     font-size: 2.6rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #3465CB;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .content_area .content_way dd{
     font-size: 1.2rem;
     margin-bottom: 50px;
 }
 
+
+
 .content_way .way_img{
     position: relative;
 }
-.content_way .way_img span{
+.content_way .way_img img{
+    border-radius: 30px;
+}
+.content_way .way_img .text1{
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     position: absolute;
-    top: 50px;
-    left: 400px;
+    top: 97px;
+    left: 347px;
+}
+.content_way .way_img .text2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 330px;
+}
+.content_way .way_img .text3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 347px;
+}
+.content_way .way_img .text4{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 347px;
+}
+.content_way .way_img .text5{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 347px;
+}
+.content_way .way_img .text6{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 347px;
+}
+.content_way .way_img .text7{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 347px;
+}
+.content_way .way_img .text8{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 97px;
+    left: 347px;
 }
