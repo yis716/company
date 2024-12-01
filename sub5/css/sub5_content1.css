@@ -179,18 +179,33 @@
     color: #fff;
     position: absolute;
     top: 96px;
-        left: 365px;
+    left: 365px;
     }
+    
         .content_career {
             width: 2000px;
             position: relative;
             left: 50%;
             transform: translateX(-50%);
-        }
+    position: relative;
+    }
     
-        .content_career p {
-            font-size: 2.5rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #fff;
-        }
+    .content_career .career_txt {
+        position: absolute;
+        top: 144px;
+        left: 400px;
+        text-align: center;
+}
+
+.content_career p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+        margin-bottom: 5px;
+    }
+    
+    .content_career span {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #fff;
+    }

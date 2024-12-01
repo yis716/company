@@ -1,1 +1,58 @@
 @charset "utf-8";
+
+/* 채용절차 페이지 */
+
+.content_area {
+    width: 100%;
+}
+
+.content_area .content_container>p {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.content_container .con_nav {
+    margin-bottom: 200px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.content_container .con_nav .tab_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_container .con_nav .tab {
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+}
+
+.content_container .con_nav ul li {
+    width: 400px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    transition: all .5s ease-out;
+}
+
+.content_container .con_nav .tab:hover {
+    background: #037AFE;
+    color: #fff;
+}
+
+.content_container .con_nav .tab.active {
+    display: inline-block;
+    background: #037AFE;
+    color: #fff;
+}
+
+.content_container .conlist {
+    display: none;
+}
+
+.content_container .conlist.active {
+    display: block;
+}
