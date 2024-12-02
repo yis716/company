@@ -5,30 +5,29 @@
 .content_area {
     width: 100%;
 }
-
+.content_container{
+    width: 1400px;
+    margin: 0 auto;
+}
 .content_area .content_container>p {
     font-size: 2rem;
     font-weight: 500;
     text-align: center;
     margin-bottom: 100px;
 }
-
 .content_container .con_nav {
     margin-bottom: 200px;
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
-
 .content_container .con_nav .tab_menu {
     display: flex;
     justify-content: space-between;
 }
-
 .content_container .con_nav .tab {
     border: 1px solid #d9d9d9;
     border-radius: 30px;
 }
-
 .content_container .con_nav ul li {
     width: 400px;
     font-size: 2rem;
@@ -37,22 +36,197 @@
     padding: 20px 0;
     transition: all .5s ease-out;
 }
-
 .content_container .con_nav .tab:hover {
     background: #037AFE;
     color: #fff;
 }
-
 .content_container .con_nav .tab.active {
     display: inline-block;
     background: #037AFE;
     color: #fff;
 }
-
 .content_container .conlist {
     display: none;
 }
-
 .content_container .conlist.active {
     display: block;
+}
+/* 신입채용 */
+.content_container .career_newcomer{
+    margin-bottom: 200px;
+}
+.content_container .new_menu{
+    margin-bottom: 100px;
+}
+.content_container .new_menu ol{
+    display: flex;
+    justify-content: space-between;
+}
+.content_container .new_menu li{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_container .new_menu li span{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.content_container .new_menu li img{    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.content_container .new_txt ul{
+    display: flex;
+    flex-direction: column
+}
+.content_container .new_txt li{
+    margin-bottom: 50px;
+}
+.content_container .new_txt dt{
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content_container .new_txt dd{
+    font-size: 1.25rem;
+    margin: 0 0 5px 20px;
+}
+.content_container .txt_exc1 p {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content_container .txt_exc1 dl{
+    margin-bottom: 20px;
+}
+.content_container .txt_exc1 dt {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 5px 20px;
+}
+.content_container .txt_exc1 dd {
+    font-size: 1.25rem;
+    margin: 0 0 5px 40px;
+}
+
+/* 인턴채용 */
+.content_container .career_intern {
+    margin-bottom: 200px;
+}
+
+.content_container .new_menu {
+    margin-bottom: 100px;
+}
+
+.content_container .career_intern ol {
+    display: flex;
+    justify-content: space-between;
+}
+.content_container .career_intern .new_menu li {
+    width: 150px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_container .career_intern .new_menu li span {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.content_container .career_intern .new_menu li img {
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* 경력채용 */
+.content_container .career_positions {
+    margin-bottom: 200px;
+}
+
+.content_container .new_menu {
+    margin-bottom: 100px;
+}
+
+.content_container .career_positions ol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_container .career_positions .new_menu li {
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_container .career_positions .new_menu li span {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.content_container .career_positions .new_menu li img {
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.content_container .txt_exc2 dl {
+    margin-bottom: 20px;
+}
+.content_container .txt_exc2 p{
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content_container .txt_exc2 dt{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 5px 20px;
+}
+.content_container .txt_exc2 dd{
+    font-size: 1.25rem;
+    margin: 0 0 5px 40px;
+}
+.content_career {
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.content_career .career_txt {
+    position: absolute;
+    top: 144px;
+    left: 400px;
+    text-align: center;
+}
+
+.content_career p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.content_career span {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
 }

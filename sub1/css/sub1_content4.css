@@ -35,12 +35,16 @@
     background: #037AFE;
     color: #fff;
 }
-.content_area .map_list{
+.content_area .tab_box {
+    height: 1800px;
+    overflow: hidden;
+}
+/* .content_area .map_list{
     display: none;
 }
 .content_area .map_list.active{
     display: block;
-}
+} */
 .content_area .map_menu ul li span{
     font-family: "Roboto", sans-serif;
 }
