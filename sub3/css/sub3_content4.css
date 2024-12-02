@@ -1,3 +1,52 @@
 @charset "utf-8";
 
-/* ESG전략 페이지 내용영역 */
+/* 기업지배구조 페이지 내용영역 */
+.content_area {
+    width: 100%;
+}
+.content_area > p{
+    font-size: 2.625rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.content_area>p span {
+    color: #F5831B;
+}
+.content_area .area_tit{
+    width: 2000px;
+    margin: 0 auto;
+    position: relative;
+}
+.content_area .area_tit img{
+    z-index: -20;
+}
+.content_area .con_tit{
+    width: 1400px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+}
+.content_area .con_tit h3{
+    font-size: 3.125rem;
+    line-height: 150%;
+    margin-bottom: 5px;
+    
+}
+.content_area .con_tit h3::before{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: rgba(245,131,27,.7);
+    position: absolute;
+    top: -17px;
+    left: -35px;
+    border-radius: 50%;
+    
+}
+.content_area .con_tit span {
+    font-size: 1.25rem;
+    line-height: 140%;
+}
