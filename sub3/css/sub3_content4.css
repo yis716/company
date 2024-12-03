@@ -18,21 +18,23 @@
     margin: 0 auto;
     position: relative;
 }
-.content_area .area_tit img{
-    z-index: -20;
+.content_area .con_gov{
+    height: 400px;
+   background: url(../images/content4/gov.jpg);
 }
 .content_area .con_tit{
     width: 1400px;
     margin: 0 auto;
     position: absolute;
     bottom: 30px;
-    left: 300px;
+    left: 250px;
 }
 .content_area .con_tit h3{
     font-size: 3.125rem;
     line-height: 150%;
     margin-bottom: 5px;
-    
+    position: relative;
+    z-index: 0;
 }
 .content_area .con_tit h3::before{
     content: '';
@@ -44,9 +46,43 @@
     top: -17px;
     left: -35px;
     border-radius: 50%;
-    
+    z-index: -1;
 }
 .content_area .con_tit span {
     font-size: 1.25rem;
     line-height: 140%;
+}
+.content_area .content_container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.content_container .con_inner{
+    margin-bottom: 100px;
+}
+.content_container .con_inner h4{
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.content_container .con_inner dl {
+    margin-bottom: 50px;
+}
+.content_container .con_inner dt{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 10px 20px;
+}
+.content_container .con_inner dd {
+    margin: 0 0 5px 40px;
+}
+.content_container .inner1 p {
+    font-size: 1.25rem;
+}
+.content_container .inner1 p:nth-child(1){
+    margin: 60px 0 20px;
+}
+.content_container .inner5 p,
+.content_container .inner6 p,
+.content_container .inner7 p{
+    margin: 0 0 5px 40px;
 }
