@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* 재무현황 페이지 내용영역 */
+
+.content_area {
+    width: 1400px;
+    margin: 0 auto;
+}
+.chart1 {
+    margin: 100px 0;
+}
