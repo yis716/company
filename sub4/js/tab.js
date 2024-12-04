@@ -1,6 +1,6 @@
 //탭 버튼과 탭 내용들 담기
 const tabNav = document.querySelectorAll(".tab");
-const tabCon = document.querySelectorAll(".conlist");
+const tabCht = document.querySelectorAll(".cht");
 
 //tabNav[0].classList.add("active");
 
@@ -12,14 +12,14 @@ tabNav.forEach((item, index) => {     // forEach문으로 돌리기
         tabNav[index].classList.add("active"); // 탭버튼을 클릭한 배열의 active class를 추가하기
         
         const tabNavId = (item.id); // 탭버튼(tabNav)의 id를 가져오기
-        tabCon.forEach((item, index) => { // id를 가져왔으니까 본문(tabCon)을 탭버튼 처럼 foreach로 돌려주기
+        tabCht.forEach((item, index) => { // id를 가져왔으니까 본문(tabCht)을 탭버튼 처럼 foreach로 돌려주기
             item.classList.remove("active");  // 탭 본문 내용을 active class 지우기
 
             //뭐지.. 제거했으니까 추가해야되는데... id를 불러와야하니까..음
-            const tabConId = (item.id); // tabConid 가 탭버튼(tabNav)의 item.id를 담아 그 다음에 id가 같으면
+            const tabChtId = (item.id); // tabChtid 가 탭버튼(tabNav)의 item.id를 담아 그 다음에 id가 같으면
             //면이니까 if로 가정법써주고
-            if (tabConId == tabNavId) { // Con의 id가 Nav의 id와 같으면
-                tabCon[index].classList.add("active"); // 본문 내용에 active를 추가하기
+            if (tabChtId == tabNavId) { // Con의 id가 Nav의 id와 같으면
+                tabCht[index].classList.add("active"); // 본문 내용에 active를 추가하기
             }
 
         });

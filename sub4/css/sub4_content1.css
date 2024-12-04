@@ -6,6 +6,120 @@
     width: 1400px;
     margin: 0 auto;
 }
-.chart1 {
-    margin: 100px 0;
+.content_container{
+   overflow: hidden;
+}
+/* 차트 영역*/
+.content_container .cht{
+    margin-bottom: 100px;
+    width: 800px;
+    height: 300px;
+}
+.content_container .chart_txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.content_container .chart_txt h3{
+    font-size: 3rem;
+}
+.content_container .chart_txt p{
+    font-size: 1.1rem;
+}
+/* tab 영역*/
+.content_container .con_nav {
+    margin-bottom: 200px;
+    width: 500px;
+    float: right;
+}
+
+.content_container .con_nav .tab_menu {
+    display: flex;
+    flex-direction: column;
+}
+.content_container .con_nav ul li {
+    transition: all .5s ease-out;
+}
+
+.content_container .con_nav ul li{
+    width: 300px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align:right;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin: 20px 0;
+    transition: all .3s ease-out;
+}
+.content_container .con_nav ul li:hover {
+    background: #037AFE;
+    color: #fff;
+    transform: translateX(-50px);
+    text-align: center;
+}
+
+.content_container .con_nav .tab.active {
+    /* display: inline-block; */
+    background: #037AFE;
+    color: #fff;
+    text-align: center;
+    transform: translateX(0);
+}
+
+.content_container .cht {
+    display: none;
+}
+
+.content_container .cht.active {
+    display: block;
+}
+
+/* 표 영역*/
+.content_inner .table_txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.content_inner .table_txt h4{
+    font-size: 2.2rem;
+}
+.content_inner .table_txt h4::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 2px;
+    background: #397CA8;
+    transform: translateY(5px);
+}
+.content_inner .table_txt p {
+    font-size: 1.1rem;
+}
+.content_inner .t_type1{
+    margin-bottom: 100px;
+}
+.content_inner .t_type2{
+    margin-bottom: 200px;
+}
+.content_inner table{
+    width: 1400px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #999;    
+}
+.content_inner table th,
+.content_inner table td{
+    border: 1px solid #999;
+    padding: 20px 0;
+}
+.content_inner table th{
+    font-size: 1.4rem;
+}
+.content_inner table td{
+    font-size: 1.25rem;
+}
+.content_inner .g_back{
+    background: rgba(3, 122, 254, 0.7);
+    color: #fff;
 }

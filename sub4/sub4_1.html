@@ -101,35 +101,202 @@
                 <p>투명한 GS리테일 경영성과 입니다</p>
             </div>
             <div class="content_area">
-                <div class="chart1">
-                    <div class="chart_txt">
-                        <h3>매출액</h3>
-                        <span>(단위 : 억원)</span>
+                <div class="content_container">
+                    <div class="con_nav">
+                        <ul class="tab_menu">
+                            <li class="tab active" id="tab1">매출액</li>
+                            <li class="tab" id="tab2">영업이익</li>
+                            <li class="tab" id="tab3">순이익</li>
+                            <li class="tab" id="tab4">총자산</li>
+                        </ul>
                     </div>
-                    <canvas id="myChart1"></canvas>
-                </div>
-                <div class="chart2">
-                    <div class="chart_txt">
-                        <h3>영업이익</h3>
-                        <span>(단위 : 억원)</span>
+                    <div class="area_chart">
+                        <div id="tab1" class="chart1 cht active">
+                            <div class="chart_txt">
+                                <h3>매출액</h3>
+                                <p>(단위 : 억원)</p>
+                            </div>
+                            <canvas id="myChart1"></canvas>
+                        </div>
+                        <div id="tab2" class="chart2 cht">
+                            <div class="chart_txt">
+                                <h3>영업이익</h3>
+                                <p>(단위 : 억원)</p>
+                            </div>
+                            <canvas id="myChart2"></canvas>
+                        </div>
+                        <div id="tab3" class="chart3 cht">
+                            <div class="chart_txt">
+                                <h3>순이익</h3>
+                                <p>(단위 : 억원)</p>
+                            </div>
+                            <canvas id="myChart3"></canvas>
+                        </div>
+                        <div id="tab4" class="chart4 cht">
+                            <div class="chart_txt">
+                                <h3>총자산</h3>
+                                <p>(단위 : 억원)</p>
+                            </div>
+                            <canvas id="myChart4"></canvas>
+                        </div>
                     </div>
-                    <canvas id="myChart2"></canvas>
                 </div>
-                <div class="chart3">
-                    <div class="chart_txt">
-                        <h3>순이익</h3>
-                        <span>(단위 : 억원)</span>
+                <div class="content_inner">
+                    <div class="con_table">
+                        <div class="table_txt">
+                            <h4>요약 연결재무상태표</h4>
+                            <p>(단위 : 백만원)</p>
+                        </div>
+                        <table class="t_type1">
+                            <colgroup>
+                                <col style="width:240px">
+                                <col style="width:290px">
+                                <col style="width:290px">
+                                <col style="width:290px">
+                                <col style="width:290px">
+                            </colgroup>
+                            <thead>
+                                <tr class="g_back">
+                                    <th scope="col" colspan="2">구분</th>
+                                    <th scope="col">2021</th>
+                                    <th scope="col">2022</th>
+                                    <th scope="col">2023</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="rowgroup" rowspan="2">자산</th>
+                                    <th scope="row">유동자산</th>
+                                    <td>1,183,933</td>
+                                    <td>1,366,113</td>
+                                    <td>1,857,062</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">비유동자산</th>
+                                    <td>8,272,040</td>
+                                    <td>8,466,310</td>
+                                    <td>8,184,954</td>
+                                </tr>
+                                <tr class="g_back">
+                                    <th scope="row" colspan="2">자산총계</th>
+                                    <td>9,455,973</td>
+                                    <td>9,832,423</td>
+                                    <td>10,042,016</td>
+                                </tr>
+                                <tr>
+                                    <th scope="rowgroup" rowspan="2">부채</th>
+                                    <th scope="row">유동부채</th>
+                                    <td>2,055,199</td>
+                                    <td>2,173,618</td>
+                                    <td>2,664,089</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">비유동부채</th>
+                                    <td>2,986,388</td>
+                                    <td>3,238,800</td>
+                                    <td>2,944,188</td>
+                                </tr>
+                                <tr class="g_back">
+                                    <th scope="row" colspan="2">부채총계</th>
+                                    <td>104,718</td>
+                                    <td>104,718</td>
+                                    <td>104,718</td>
+                                </tr>
+                                <tr>
+                                    <th scope="rowgroup" rowspan="2">자본</th>
+                                    <th scope="row">자본금</th>
+                                    <td>2,055,199</td>
+                                    <td>2,173,618</td>
+                                    <td>2,664,089</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">이익잉여금 등</th>
+                                    <td>4,309,668</td>
+                                    <td>4,315,287</td>
+                                    <td>4,329,021</td>
+                                </tr>
+                                <tr class="g_back">
+                                    <th scope="row" colspan="2">자본총계</th>
+                                    <td>4,414,386</td>
+                                    <td>4,420,005</td>
+                                    <td>4,433,739</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <canvas id="myChart3"></canvas>
-                </div>
-                <div class="chart4">
-                    <div class="chart_txt">
-                        <h3>총자산</h3>
-                        <span>(단위 : 억원)</span>
+                    <div class="con_table">
+                        <div class="table_txt">
+                            <h4>요약 연결손익계산서</h4>
+                            <p>(단위 : 백만원)</p>
+                        </div>
+                        <table class="t_type2">
+                            <thead >
+                                <tr class="g_back">
+                                    <th scope="col">구분</th>
+                                    <th scope="col">2021</th>
+                                    <th scope="col">2022</th>
+                                    <th scope="col">2023</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>매출액</th>
+                                    <td>9,517,214</td>
+                                    <td>11,031,893</td>
+                                    <td>11,612,548</td>
+                                </tr>
+                                <tr>
+                                    <th>매출총이익</th>
+                                    <td>2,163,177</td>
+                                    <td>2,832,293</td>
+                                    <td>2,960,024</td>
+                                </tr>
+                                <tr>
+                                    <th>판매비와 관리비</th>
+                                    <td>1,870,705</td>
+                                    <td>2,472,107</td>
+                                    <td>2,566,069</td>
+                                </tr>
+                                <tr>
+                                    <th>영업이익</th>
+                                    <td>292,472</td>
+                                    <td>360,186</td>
+                                    <td>393,955</td>
+                                </tr>
+                                <tr>
+                                    <th>기타손익</th>
+                                    <td>597,912</td>
+                                    <td>-57,578</td>
+                                    <td>-7,548</td>
+                                </tr>
+                                <tr>
+                                    <th>금융손익</th>
+                                    <td>58,911</td>
+                                    <td>-75,767</td>
+                                    <td>-83,863</td>
+                                </tr>
+                                <tr>
+                                    <th>지분법손익</th>
+                                    <td>42,216</td>
+                                    <td>-15,138</td>
+                                    <td>-154,585</td>
+                                </tr>
+                                <tr>
+                                    <th>법인세비용 차감전순이익</th>
+                                    <td>991,511</td>
+                                    <td>211,703</td>
+                                    <td>147,959</td>
+                                </tr>
+                                <tr class="g_back">
+                                    <th>당기순이익</th>
+                                    <td>801,276</td>
+                                    <td>47,610</td>
+                                    <td>22,148</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <canvas id="myChart4"></canvas>
                 </div>
-                
             </div>
         </article>
         <footer id="footerArea">
@@ -226,5 +393,6 @@
     <script src="../common/js/common.js"></script>
     <script src="./js/chart.js"></script>
     <script src="./js/main_chart.js"></script>
+    <script src="./js/tab.js"></script>
 </body>
 </html>
