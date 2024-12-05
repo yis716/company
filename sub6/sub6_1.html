@@ -71,6 +71,7 @@
                             <ul>
                                 <li><a href="../sub6/sub6_1.html">공지사항</a></li>
                                 <li><a href="../sub6/sub6_2.html">뉴스룸</a></li>
+                                <li><a href="../sub6/sub6_3.html">입점상담</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -89,6 +90,7 @@
             <ul>
                 <li><a class="current" href="./sub6_1.html">공지사항</a></li>
                 <li><a href="./sub6_2.html">뉴스룸</a></li>
+                <li><a href="./sub6_3.html">입점상담</a></li>
             </ul>
         </div>
         <article id="content">
@@ -104,12 +106,11 @@
                 <div class="sch">
                     <form action="" method="post">
                         <fieldset>
-                            <legend>공지사항 게시판 검색</legend>
-                            <!-- legend hidden으로 날리기 -->
+                            <legend class="hidden">공지사항 게시판 검색</legend>
                             <div class="prgs">
-                                <label for="prgs"></label>
+                                <label for="prgs" class="hidden">구분</label>
                             </div>
-                            <div class="choi">
+                            <div class="choi_left">
                                 <select name="prgs" id="prgs">
                                     <option value="">브랜드선택</option>
                                     <option value="all">전체브랜드</option>
@@ -119,12 +120,91 @@
                                     <option value="gstf">GS THE FRESH</option>
                                 </select>
                             </div>
-                            <input type="text" id="us_id" name="us_id" title="검색어 입력">
+                            <input type="text" id="us_id" name="us_id" title="검색어 입력" class="us_id">
                             <div class="choi_right">
                                 <input type="button" value="검색" id="searchBtn">
                             </div>
                         </fieldset>
                     </form>
+                </div>
+                <div class="content_inner">
+                    <table>
+                        <caption class="hidden">공지사항 목록</caption>
+                        <colgroup>
+                            <col style="width: 200px;">
+                            <col style="width: 200px;">
+                            <col style>
+                            <col style="width: 200px;">
+                            <col style="width: 200px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">번호</th>
+                                <th scope="col">브랜드</th>
+                                <th scope="col">제목</th>
+                                <th scope="col">등록일</th>
+                                <th scope="col">조회</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
 

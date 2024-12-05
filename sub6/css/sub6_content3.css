@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* 입점상담 페이지 */
+.content_area{
+    width: 100%;
+    margin: 0 auto;
+}
+.content_area .con_cs1{
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    background: url(../images/content3/cs.jpg);
+}
+.content_area .con_cs1 p{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    transform: translateY(133px);
+}
+.content_area .con_info{
+    width: 1400px;
+    margin: 100px auto 200px;
+}
+.content_area .con_cs2 p{
+    font-size: 1.875rem;
+    font-weight: 500;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.content_area .cs2_inner{
+    display: flex;
+}
+.content_area .cs2_inner .cir1 {
+    width: 700px;
+    height: 700px;
+    border: 15px solid rgba(3,122,254,.8);
+    border-radius: 50%;
+    transform: translateX(50px);
+}
+.content_area .cs2_inner .cir2 {
+    width: 700px;
+    height: 700px;
+    border: 15px solid rgba(153, 205, 0, .8);
+    border-radius: 50%;
+    transform: translateX(-50px);
+}
+.content_area .con_cs3{
+    margin-top: 100px;
+}
+.content_area .con_cs3 a{
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 15px 0;
+    width: 300px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    transform: translateX(550px);
+    transition: all .5s ease-out;
+}
+.content_area .con_cs3 a:hover{
+    background: #037AFE;
+    color: #fff;
+}

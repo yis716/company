@@ -5,13 +5,64 @@
     width: 1400px;
     margin: 0 auto;
 }
-.content_area .choi_left{
-    
-}
-
-legend{
+.hidden {
     overflow: hidden;
     text-indent: -999%;
     width: 1px;
     height: 1px;
+    position: absolute;
+}
+.content_area > p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.content_area>p span{
+    color: #F5831B;
+}
+/* form 영역 */
+.content_area form{
+    margin-bottom: 100px;
+}
+fieldset{
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+fieldset .us_id{
+    width: 250px;
+    font-size: 1.1rem;
+    border: 1px solid #dfdfdf;
+}
+select{
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 10px 10px;
+    font-size: 1rem;
+}
+.choi_right input{
+    width: 100%;
+    padding: 8px 10px;
+    background: #F5831B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* table 영역 */
+.content_inner table {
+    width: 1400px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #999;
+}
+.content_inner thead th{
+    border: 1px solid #999;
+    padding: 10px 0;
+}
+.content_inner tbody{
+    border: none;
 }
