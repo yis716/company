@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 공지사항 페이지 */
+.content_area{
+    width: 1400px;
+    margin: 0 auto;
+}
+.content_area .choi_left{
+    
+}
+
+legend{
+    overflow: hidden;
+    text-indent: -999%;
+    width: 1px;
+    height: 1px;
+}

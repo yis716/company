@@ -247,37 +247,3 @@ const chart4 = new Chart(cht4, {
         // }
     },
 });
-
-
-
-
-
-
-
-
-
-// const config = {
-//     options: {
-//         scales: {
-//             y: {
-//                 grid: { // 축에 대한 격자선
-//                     display: false, // grid 활성화 (기본값 true)
-//                 },
-//                 beginAtZero: true //0부터 시작
-//             }
-//         },
-//         plugins: {
-//             legend: {
-//                 display: false
-//             }
-//         }
-//         // legend: {
-//         //     labels: {
-//         //         // 이 더 특정한 폰트 속성은 전역 속성을 덮어씁니다
-//         //         fontColor: 'red',
-//         //         fontFamily: "'Noto Sans KR'",
-//         //         fontSize: 40
-//         //     }
-//         // }
-//     },
-// };
