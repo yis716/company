@@ -2,12 +2,19 @@
 
 /* 비주얼 공통 */
 .visual {
-    width: 2000px;
+    width: 100%;
     height: 400px;
     position: relative;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.visual img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 .visual strong {

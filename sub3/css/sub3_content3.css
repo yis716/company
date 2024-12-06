@@ -93,6 +93,9 @@
     border-radius: 50%;
     background: rgba(108, 206, 245,.3);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .content_container .con_inner1 .con_bottom span{
     font-size: 1.5rem;

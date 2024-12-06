@@ -39,6 +39,7 @@
     border: 15px solid rgba(3,122,254,.8);
     border-radius: 50%;
     transform: translateX(50px);
+    position: relative;
 }
 .content_area .cs2_inner .cir2 {
     width: 700px;
@@ -46,6 +47,23 @@
     border: 15px solid rgba(153, 205, 0, .8);
     border-radius: 50%;
     transform: translateX(-50px);
+    position: relative;
+}
+.content_area .cs2_inner .img1 {
+    position: absolute;
+    top: 260px;
+    left: 245px;
+}
+.content_area .cs2_inner .img2 {
+    position: absolute;
+    top: 408px;
+    left: 202px;
+    height: 30px;
+}
+.content_area .cs2_inner .cir2 img {
+    position: absolute;
+    top: 320px;
+    left: 225px;
 }
 .content_area .con_cs3{
     margin-top: 100px;

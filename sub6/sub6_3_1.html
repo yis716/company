@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메일상담</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./css/sub6_content3_1.css">
+</head>
+<body>
+    <div class="join">
+        <h2>입점상담</h2>
+        <form method="post" action="result.php">
+            <table>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <label for="user_name">이름</label>
+                        </th>
+                        <td>
+                            <input type="text" id="user_name" name="user_name">
+                        </td>
+                    </tr>
+                    
+    
+                    <tr>
+                        <th scope="row">
+                            핸드폰번호
+                        </th>
+                        <td>
+                            <label for="phone1" class="hidden">핸드폰앞3자리</label>
+                            <input type="text" id="phone1" name="phone1"> -
+                            <label for="phone2" class="hidden">핸드폰중간4자리</label>
+                            <input type="text" id="phone2" name="phone2"> -
+                            <label for="phone3" class="hidden">핸드폰끝4자리</label>
+                            <input type="text" id="phone3" name="phone3">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <th scope="low">
+                            이메일
+                        </th>
+                        <td>
+                            <label for="email1" class="hidden">이메일계정아이디입력</label>
+                            <input type="text" id="email1" name="email1"> @
+                            <label for="email2" class="hidden">이메일계정주소입력</label>
+                            <input type="text" id="email2" name="email2">
+                        </td>
+                    </tr>
+    
+                    
+                    <tr>
+                        <th scope="row">
+                            입점 브랜드
+                        </th>
+                        <td>
+                            <input type="checkbox" id="check1" name="check1" checked>
+                            <label for="check1">GS25</label>
+                            <input type="checkbox" id="check2" name="check2">
+                            <label for="check2">GS THE FRESH</label>
+                            <input type="checkbox" id="check3" name="check3">
+                            <label for="check3">GS SHOP</label>
+                        </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th scope="row">
+                            <label for="memo">상담내용</label>
+                        </th>
+                        <td>
+                            <textarea name="memo" id="memo" rows="6" cols="80">상담하실 내용을 작성해주세요.</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="button">
+                            <input type="submit" value="접수하기">
+                            <input type="reset" value="다시쓰기">
+                            <!-- <button type="submit">전송하기</button>
+                                <button type="reset">다시쓰기</button> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
