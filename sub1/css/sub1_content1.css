@@ -2,7 +2,7 @@
 
 /* 경영이념 페이지 내용영역 */
 .content_area{width: 100%;}
-.content_area .con_top{
+.content_area .con_top{ 
     width: 1400px; height: 800px;
     margin: 0 auto;
 }

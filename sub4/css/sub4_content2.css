@@ -3,7 +3,7 @@
 /* 정책제도정보 페이지 내용영역 */
 .content_area{
     width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .content_area h3{
     font-size: 3rem;

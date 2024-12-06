@@ -3,7 +3,7 @@
 /* 입점상담 - 메일상담 페이지 */
 .hidden {
     position: absolute;
-    left: -1000%;
+    left: -1000%; 
     top: 0;
     display: block;
     width: 1px;

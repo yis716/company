@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     gap: 70px;
-}
+} 
 .content_container .con_inner1 .con_top dt{
     font-size: 1.875rem;
     font-weight: 500;
