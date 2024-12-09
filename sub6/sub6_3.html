@@ -131,37 +131,34 @@
                 </div>
                 <div class="mail">
                     <p>상담신청하기</p>
-                    <form action="" method="post">
-                        <div>
+                    <form action="" method="post" id="contact-form">
+                        <div class="brd">
                             <label for="user_name">성함:</label>
                             <input type="text" id="user_name" name="user_name" required>
                         </div>
-                        <div>
+                        <div class="brd">
                             <label for="user-tel">전화번호:</label>
                             <input type="text" id="user-tel" name="user-tel" required placeholder="010-0000-0000">
                         </div>
-                        <div>
+                        <div class="brd">
                             <label for="user-email">이메일:</label>
                             <input type="email" id="user-email" name="user-email" required>
                         </div>
-                        <div class="mail_brand">
-                            <label for="prgs">브랜드 선택:</label>
-                            <select name="prgs" id="prgs">
-                                <option value="">브랜드선택</option>
-                                <option value="all">전체브랜드</option>
-                                <option value="gs25">GS25</option>
-                                <option value="gsshop">GS SHOP</option>
-                                <option value="gstf">GS THE FRESH</option>
-                            </select>
-                            <!-- <label for="">입점 브랜드:</label>
-                            <input type="checkbox" id="check1" name="check1" checked>
-                            <label for="check1">GS25</label>
-                            <input type="checkbox" id="check2" name="check2">
-                            <label for="check2">GS THE FRESH</label>
-                            <input type="checkbox" id="check3" name="check3">
-                            <label for="check3">GS SHOP</label> -->
+                        <div class="mail_brand">                            
+                            <div class="brand_txt">
+                                <p>입점 브랜드:</p>
+                                <span>(중복선택가능)</span> 
+                            </div>                 
+                            <div class="brand_chk">
+                                <input type="checkbox" id="check1" name="check1" checked>
+                                <label for="check1">GS25</label>
+                                <input type="checkbox" id="check2" name="check2">
+                                <label for="check2">GS THE FRESH</label>
+                                <input type="checkbox" id="check3" name="check3">
+                                <label for="check3">GS SHOP</label>
+                            </div>
                         </div>
-                        <div>
+                        <div class="brd">
                             <label for="message">문의내용:</label>
                             <textarea name="message" id="message"></textarea>
                         </div>
@@ -263,6 +260,16 @@
         <script src="../common/js/jquery.easing.1.3.js"></script>
         <script src="../common/js/aos.js"></script>
         <script src="../common/js/common.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="./js/mail.js"></script>
+        <script>
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init({
+                publicKey: "2qwFLLRDbTuhM9LZ3",
+                });
+            })();
+        </script>
         <script>
             AOS.init({
                 easing: 'ease-in-out-sine'
