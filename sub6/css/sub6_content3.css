@@ -82,3 +82,35 @@
     background: #037AFE;
     color: #fff;
 }
+/* 메일 상담하기 */
+.content_area .mail{
+    width: 1200px;
+    margin: 0 auto 200px;
+    padding: 50px;
+    background: rgba(3,122,254,.3);
+    border-radius: 100px 0 ;
+}
+.content_area .mail p{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.content_area .mail .div{
+    padding: 20px;
+}
+.content_area .mail label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+.mail input, select, textarea{
+    width: 80%; padding: 10px 10%;
+}
+
+/* .mail_brand{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+} */

@@ -109,29 +109,64 @@
                     </p>
                 </div>
                 <div class="con_info">
-                    <div class="con_cs2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="con_cs2" data-aos="fade-up" data-aos-duration="1500">
                         <p>브랜드를 선택하면 해당페이지로 이동합니다.</p>
-                        <div class="cs2_inner">
-                            <a href="https://www.gsretail.com/gsretail/ko/corporation/partnership/submain" target="_blank" title="새창으로 이동">
-                                <ul class="cir1">
-                                    <li>
-                                        <img class="img1" src="./images/content3/gs25_logo.png" alt="">
-                                        <img class="img2" src="./images/content3/gsthefresh_logo.png" alt="">
-                                    </li>
-                                </ul>
-                            </a>
-                            <a href="https://withgs.gsshop.com/sug/suggest" target="_blank" title="새창으로 이동">
-                                <ul class="cir2">
-                                    <li>
-                                        <img src="./images/content3/gsshop_logo.png" alt="">
-                                    </li>
-                                </ul>
-                            </a>
+                        <div class="cs2_inner">                           
+                            <ul class="cir1">
+                                <li>
+                                    <img class="img1" src="./images/content3/gs25_logo.png" alt="">
+                                    <img class="img2" src="./images/content3/gsthefresh_logo.png" alt="">
+                                </li>
+                            </ul>                    
+                            <ul class="cir2">
+                                <li>
+                                    <img src="./images/content3/gsshop_logo.png" alt="">
+                                </li>
+                            </ul>                           
                         </div>
                     </div>
                     <div class="con_cs3">                       
                         <a href="./sub6_3_1.html" target="_blank" title="새창으로 이동">메일 상담신청하기</a>                          
                     </div>
+                </div>
+                <div class="mail">
+                    <p>상담신청하기</p>
+                    <form action="" method="post">
+                        <div>
+                            <label for="user_name">성함:</label>
+                            <input type="text" id="user_name" name="user_name" required>
+                        </div>
+                        <div>
+                            <label for="user-tel">전화번호:</label>
+                            <input type="text" id="user-tel" name="user-tel" required placeholder="010-0000-0000">
+                        </div>
+                        <div>
+                            <label for="user-email">이메일:</label>
+                            <input type="email" id="user-email" name="user-email" required>
+                        </div>
+                        <div class="mail_brand">
+                            <label for="prgs">브랜드 선택:</label>
+                            <select name="prgs" id="prgs">
+                                <option value="">브랜드선택</option>
+                                <option value="all">전체브랜드</option>
+                                <option value="gs25">GS25</option>
+                                <option value="gsshop">GS SHOP</option>
+                                <option value="gstf">GS THE FRESH</option>
+                            </select>
+                            <!-- <label for="">입점 브랜드:</label>
+                            <input type="checkbox" id="check1" name="check1" checked>
+                            <label for="check1">GS25</label>
+                            <input type="checkbox" id="check2" name="check2">
+                            <label for="check2">GS THE FRESH</label>
+                            <input type="checkbox" id="check3" name="check3">
+                            <label for="check3">GS SHOP</label> -->
+                        </div>
+                        <div>
+                            <label for="message">문의내용:</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <button type="submit">신청하기</button>
+                    </form>
                 </div>
             </div>
         </article>

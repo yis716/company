@@ -21,7 +21,7 @@
     border: 1px solid #d9d9d9;
     border-radius: 30px;
 }
-.content_container .con_nav ul li{
+.content_container .con_nav ul li a{
     width: 400px;
     font-size: 2rem;
     font-weight: 500;
