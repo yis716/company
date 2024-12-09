@@ -22,7 +22,7 @@
 }
 .content_area .con_info{
     width: 1400px;
-    margin: 100px auto 200px;
+    margin: 100px auto 50px;
 }
 .content_area .con_cs2 p{
     font-size: 1.875rem;
@@ -76,11 +76,20 @@
     border: 1px solid #dfdfdf;
     border-radius: 10px;
     transform: translateX(550px);
-    transition: all .5s ease-out;
+    transition: all .3s ease-out;
 }
 .content_area .con_cs3 a:hover{
-    background: #037AFE;
+    background: #F6C026;
     color: #fff;
+}
+/* 메일 탭 */
+
+.mail {
+    display: none;
+}
+
+.mail.active {
+    display: block;
 }
 /* 메일 상담하기 */
 .mail{
@@ -89,12 +98,14 @@
     border: 1px solid #ccc;
     padding: 30px;
     border-radius: 100px 0;
+    background: rgba(160,211,249,.8);
 }
 
 .mail > p{
     font-size: 2.5rem; 
     font-weight: 600;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .mail div{
@@ -130,50 +141,58 @@
     transform: scale(1.03); 
     background:#ddf2fa ;
 }     
+.mail_brand {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
+.mail_brand .brand_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail_brand .brand_txt p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.mail_brand .brand_txt span {
+    font-size: .9rem;
+}
+
+.mail_brand .brand_chk {
+    width: 572px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.brand_chk input {
+    width: 50px;
+    height: 20px;
+    padding: 15px 0;
+}
+
+.brand_chk label {
+    font-size: 1.2rem;
+}
 
 .mail button{
     padding: 15px 50px;
-    background:#037AFE;
-    color: #fff; 
     font-size: 1.3rem; 
     border-radius: 15px;
     border: 0;
     margin: 30px auto 0;
     display: block; 
     cursor: pointer;
+    background: #fff;
+    transition: all .3s ease-out;
 }
-.mail_brand{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-.mail_brand .brand_txt{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.mail_brand .brand_txt p{
-    font-size: 1.3rem;
-    font-weight: 500;
-}
-.mail_brand .brand_txt span{
-    font-size: .9rem;
-}
-.mail_brand .brand_chk{
-    width: 572px;
-    display: flex;
-    align-items: center;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1);
-    border-radius: 10px;
-}
-
-.brand_chk input{
-    width: 50px;
-    height: 20px;
-    padding: 15px 0;
-}
-
-.brand_chk label{
-    font-size: 1.2rem;
+.mail button:hover{
+    background: #F6C026;
+    color: #fff;
 }

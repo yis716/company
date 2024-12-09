@@ -6,6 +6,7 @@ const tabCon = document.querySelectorAll(".conlist");
 
 tabNav.forEach((item, index) => {     // forEach문으로 돌리기
     item.addEventListener("click", (e) => {    // 클릭이벤트줘보기
+        e.preventDefault(); //태그의 기본 동작(링크 연결) 방지를 위해 preventDefault를 추가
         tabNav.forEach((item) => {
             item.classList.remove("active");   // 탭버튼에 담겨있는 active class 지우기
         });

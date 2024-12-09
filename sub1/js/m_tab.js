@@ -5,6 +5,7 @@ const tab_box = document.querySelector(".tab_box");
 
 tabMenu.forEach((item, index) => { // forEach문으로 돌리기
     item.addEventListener("click", (e) => { // 클릭이벤트 추가
+        e.preventDefault();//태그의 기본 동작(링크 연결) 방지를 위해 preventDefault를 추가
         tab_box.style.height = 'auto';
         tabMenu.forEach((item) => {
             item.classList.remove("active"); // 탭버튼의 active class명을 삭제한다
