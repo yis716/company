@@ -12,7 +12,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"	integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="	crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="./css/swiper.min.css">
+<link rel="stylesheet" href="./css/aos.css">
 <link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/subcommon.css">
 <link rel="stylesheet" href="./css/sub1.css">
 
 </head>
@@ -25,41 +27,334 @@
 
 <div id="wrap">
 	<div class="videoBox">
-			<img src="./images/sub1_big.jpg" id="imgBG">
-			<a class="down" href="#">SCROLL DOWN</a>
+			<img src="./images/sub1_big.jpg" id="imgBG" alt="">
+			<a class="down" href="#">
+				<div></div>
+			</a>
+			<span>SCROLL DOWN</span>
 	</div>
 	
 	<header id="headerArea">
-	  <div class="headerInner">
-		  <h1><a href="./index.html">로고</a></h1>
-		  <nav id="gnb">
-			   <h2 class="hidden">네비게이션영역</h2> 
-		  	 <ul>
-		  	 	<li><h3><a href="./sub1.html?num=1">menu01</a></h3></li>
-		  	 	<li><h3><a href="./sub2.html?num=2">menu02</a></h3></li>
-		  	 	<li><h3><a href="./sub3.html?num=3">menu03</a></h3></li>
-		  	 	<li><h3><a href="./sub4.html?num=4">menu04</a></h3></li>
-		  	 </ul>
-		  </nav>
+	  	<div class="headerInner">
+		  	<h1 class="logo"><a href="./index.html">National Geographic로고</a></h1>
+			<a class="menuOpen menu_ham" href="#">
+				<span>메뉴열기</span>
+			</a>
+		  	<nav id="gnb">
+				<h2 class="hidden">네비게이션영역</h2> 
+				<ul>
+					<li><h3><a href="./sub1.html?num=1">HISTORY</a></h3></li>
+					<li><h3><a href="./sub2.html?num=2">ANIMALS</a></h3></li>
+					<li><h3><a href="./sub3.html?num=3">ENVIRONMENT</a></h3></li>
+					<li><h3><a href="./sub4.html?num=4">SCIENCE</a></h3></li>
+					<li><h3><a href="./sub5.html?num=5">GALLERY</a></h3></li>
+				</ul>
+		  	</nav>
 		</div>
 	</header>
 	
 	<article id="content">
-		<h2>CHARACTER</h2>
-		<section>
-			 <h3>내용 콘텐츠1 제목</h3>
+		<h2>HISTORY</h2>
+		<section class="sec">
+			<div class="his_top" data-aos="fade-up" data-aos-duration="2000">
+				<ul>
+					<li class="img">
+						<img src="./images/sub1/top1.jpg" alt="">
+						<div>
+							<span>
+								NATIONAL<br>
+								GEOGRAPHIC<br>
+								HISTORY<br>
+								MAGAZINE
+							</span>
+						</div>
+					</li>
+					<li class="top2 img">
+						<img src="./images/sub1/top2.jpg" alt="">
+						<div>
+							<span>
+								EXPLORE<br>
+								BLACK<br>
+								HISTORY<br>
+								IN AMERICA
+							</span>
+						</div>
+					</li>
+					<li class="img">
+						<img src="./images/sub1/top3.jpg" alt="">
+						<div>
+							<span>
+								OUT<br>
+								OF<br>
+								EDEN<br>
+								WALK
+							</span>
+						</div>
+					</li>
+				</ul>
+				<p>
+					History is a magazine published by the National Geographic Society that explores the fascinating stories of world history,
+					archaeology, and cultural heritage. Known for its in-depth analysis and visually stunning presentation,
+					the magazine appeals to history enthusiasts and general readers alike.
+				</p>
+				<p>
+					Get the big story of the day, and explore the past and our place in the modern world. History comes alive with every issue.
+					Unveiling the stories that shaped our world.
+				</p>
+			</div>
+			<div class="his_bottom">
+				<h3>History & Culture</h3>
+				<ul class="con1 bot" data-aos="fade-up" data-aos-duration="2000">
+					<li class="img"><img src="./images/sub1/emu1.jpg" alt=""></li>
+					<li>
+						<p>The bizarre story of when Australia went to war with emus—and lost</p>
+					</li>
+					<li>
+						<p>
+							In the 1930s, a battle unlike any other unfolded in the Australian outback.
+							After World War I, thousands of “soldier settlers” moved to Western
+							Australia, attracted by government incentives to develop the land. As a
+							result, thousands of emus—tall, flightless birds—in search of food,
+							migrated into these newly established farms and trampled crops along
+							the way.
+						</p>
+						<p>
+							The government's response was swift and unusual: dispatched soldiers
+							armed with machine guns to eliminate more than 20,000 emus. What
+							they expected to be a quick and decisive victory turned into a humbling
+							and absurd episode known as the “Emu War.”
+						</p>
+						<p>
+							But this bizarre chapter in history wasn't just a military misstep—it
+							revealed the emus' critical role in Australia's ecosystems and solidified
+							their status as one of the country's most iconic species.
+						</p>
+						<p>
+							“They're pretty iconic: very curious, not scared, quite confident,” says
+							Comacchio noting the birds' quirky behaviors, such as hopping excitedly
+							from one leg to the other. “People love them.”
+						</p>
+					</li>
+					<li class="img"><img src="./images/sub1/emu2.jpg" alt=""></li>
+				</ul>
+				<ul class="con2 bot" data-aos="fade-up" data-aos-duration="2000">
+					<li>
+						<dl>
+							<dt>Lost Silk Road cities were just discovered with groundbreaking tech</dt>
+							<dd>
+								Scientists were surprised to find a medieval metropolis atop mountains, providing new insights into life along the
+								ancient trade
+								route. “This changes everything we thought we knew.”
+							</dd>
+							<dd>
+								Researchers have discovered the remains of medieval cities perched above the ancient Silk Road in the rugged mountains
+								of
+								southeastern Uzbekistan. One of them is a sprawling, high-altitude metropolis that lay hidden for centuries, in a place
+								where few
+								expected to find signs of ancient civilizations.
+							</dd>
+							<dd>
+								The discovery, made possible by new drone-based lidar technology, challenges long-held assumptions about urban life in
+								the
+								remote mountains of Central Asia more than a thousand years ago.
+							</dd>
+						</dl>
+					</li>
+					<li class="img"><img src="./images/sub1/sr1.jpg" alt=""></li>
+					<li class="img"><img src="./images/sub1/sr2.jpg" alt=""></li>
+					<li class="img"><img src="./images/sub1/sr3.jpg" alt=""></li>
+					<li>
+						<dl>
+							<dt>'New Kid on the Block'</dt>
+							<dd>
+								For centuries, Silk Road historians have focused on the nomadic tribes and
+								lowland empires that dominated the Uzbekistan region, often painting the
+								highlands as marginal or peripheral to life in the valleys below. But the
+								existence of extensive urban centers suggests that the mountains were home
+								to their own distinct societies, with complex economies, political systems,
+								and cultures.
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<div class="bot" data-aos="fade-up" data-aos-duration="2000">
+					<ul class="con3">
+						<li class="img"><img src="./images/sub1/ww1.jpg" alt=""></li>
+						<li>
+							<p>83 years after Pearl Harbor, here's how the attack changed history</p>
+						</li>
+						<li>
+							<p>
+								Certain of inevitable war with the U.S., Japan launched a preemptive
+								strike that shocked Americans and prompted the nation to enter
+								World War II.
+							</p>
+							<p>
+								The attack shocked the nation—and thrust the U.S. into a war it had
+								managed to sidestep for years. The day after the attack, President
+								Roosevelt asked Congress for a declaration of war against Japan.
+								Calling December 7 a “date which shall live in infamy,” he told the
+								U.S. Congress that the nation was in grave danger. Only one member
+								of Congress, Representative Jeannette Rankin of Montana, voted
+								against the declaration. Rankin, a pacifist and the first woman in
+								Congress, had also voted against the U.S. entering into World War I.
+							</p>
+						</li>
+						<li class="img"><img src="./images/sub1/ww2.jpg" alt=""></li>
+					</ul>
+					<div class="con3_txt">
+						<p>
+							On December 11, both Germany and Italy honored their pact with Japan and declared war against the U.S., which swiftly
+							reciprocated. What followed would be a conflict that laid
+							waste to much of Europe and Japan and that ended in 15 million battle deaths, 25 million wounded in battle, and at least
+							45 million civilian deaths. Ultimately, 416,800 American service members
+							would die in the war.
+						</p>
+						<p>
+							Pearl Harbor had other brutal legacies. The Japanese military's act was used to justify the internment of about 120,000
+							people of Japanese descent in the mainland U.S., including
+							70,000 U.S. citizens. And it forever ended the U.S.' pre-1941 stance of isolationism and neutrality.
+						</p>
+						<p>
+							The attack on Pearl Harbor marked the entry of the world's mightiest military power into World War II. It was also a
+							turning point for the nation. “Everyone I talk to seems to feel that the old world
+							we lived in before December 7, 1941 has passed out of existence,” Pittsburgh cab company executive Paul L. Houston said
+							in a man-on-the-street interview in February 1942.
+							“And we are in a whole new universe.”
+						</p>
+					</div>
+				</div>
+				<div class="con4 bot" data-aos="fade-up" data-aos-duration="2000">
+					<ul class="om1">
+						<li>
+							<dl>
+								<dt>Why this ancient hat is the 2024 Olympic mascot</dt>
+								<dd>
+									When the first official Olympic mascot—a rainbow-hued dachshund named Waldi—debuted at the 1972 Olympic games in Munich,
+									Germany, it became a popular symbol of both the international event and the host country. Since then, most Olympic
+									mascots
+									have been colorful animal characters. For the 2024 Summer Olympics, however, host country France has chosen
+									a hat with an almost unpronounceable name.
+								</dd>
+								<dd>
+									Smiley Phryge (pronounced, with French style, as “Free-juh”) represents what's known as a Phrygian cap, based on similar
+									caps
+									worn by 18th-century French revolutionaries, who saw it as a symbol of freedom. In Eugene Delacroix's painting
+									Liberty Leading the People, the allegorical figure of Liberty hoists the French flag while wearing such a cap,
+									with its distinctive forward-facing tip.
+								</dd>
+							</dl>
+						</li>
+						<li class="img"><img src="./images/sub1/om1.jpg" alt=""></li>
+					</ul>
+					<ul class="om2">
+						<li class="img"><img src="./images/sub1/om2.jpg" alt=""></li>
+						<li>
+							<p>After the end of the Roman Empire, however, the symbolism of the Phrygian cap becomes unclear.</p>
+							<p>
+								Roman art features another type of cap, a conical hat called the pileus, which was given to Roman slaves when they
+								were freed and became a visual symbol of manumission, or freedom from slavery.
+							</p>
+							<p>
+								Rose thinks ancient depictions of the pileus and the Phrygian cap became muddled in the 18th century, when
+								revolutionary artists in Europe looked for symbols of freedom in Roman art.
+							</p>
+							<p>
+								“When the French and British wanted to choose a cap of liberty from antiquity, they got it wrong,” he says.
+								“They chose the Phrygian cap, which signified Middle East status, rather than the pileus, which signified liberty—
+								and so the Phrygian cap came to be interpreted as a symbol of liberty.”
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="con5 bot" data-aos="fade-up" data-aos-duration="2000">
+					<ul class="mada1">
+						<li class="img"><img src="./images/sub1/mada1.jpg" alt=""></li>
+						<li>
+							<dl>
+								<dt>Who built this mysterious settlement in Madagascar?</dt>
+								<dd>
+									The carved rock niches and stone walls of the mysterious Teniky archaeological site in Madagascar have long
+									puzzled scientists. An early theory held that shipwrecked Portuguese sailors were the original architects
+									in the 1500s.
+								</dd>
+								<dd>
+									Now abandoned amid a landscape of tropical forests, rocky hillsides and towering mountain ridges in the
+									southwest of Madagascar, Teniky is more than 100 miles from the nearest coast and about as far from
+									anywhere that you can get on this Texas-sized island in the Indian Ocean.
+								</dd>
+								<dd>
+									The dozens of niches carved into its cliffs look like small elevated rooms, a few feet wide and deep;
+									many of their entrances are surrounded by circular recesses, possibly so they could be closed with doors
+									of wood or stone.
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<ul class="mada2">
+						<li class="img"><img src="./images/sub1/mada2.jpg" alt=""></li>
+						<li class="img"><img src="./images/sub1/mada3.jpg" alt=""></li>
+						<li class="img"><img src="./images/sub1/mada4.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
 		</section>	
 	</article>
 	
-	<footer id="footerArea">
-	    푸터 콘텐츠
+	<footer id="footerArea" class="sec1">
+		<a class="topMove" href="#">
+			<ul class="move_box">
+				<li class="box_con front"></li>
+				<li class="box_con back"></li>
+			</ul>
+			<span>TOP</span>
+		</a>
+		<div class="footer_con">
+			<div class="footer_txt">
+				<p>National Geographic</p>
+				<span>Copyright &copy; 1996-2015 National Geographic Society</span><span>Copyright &copy; 2015-2024 National
+					Geographic Partners, LLC. All rights
+					reserved</span>
+			</div>
+			<ul>
+				<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+			</ul>
+		</div>
 	</footer>
 </div>	
 
 <script src="./js/jquery-1.12.4.min.js"></script>
 <script src="./js/jquery-migrate-1.4.1.min.js"></script>
 <script src="./js/swiper.min.js"></script>
+<script src="./js/aos.js"></script>
+<script src="./js/common.js"></script>
 <script src="./js/sub_img_back.js"></script>
+<script>
+	AOS.init({
+		easing: 'ease-in-out-sine'
+	});
+</script>
+<!-- <script>
+	window.onload = function () {
+		var swiper = new Swiper('.swiper-container', {
+			pagination: {
+				el: '.swiper-pagination',
+			},
+			slidesPerView: 'auto',
+			paginationClickable: true,
+			spaceBetween: 0,
+			freeMode: true,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			}
+		});
+	};
+</script> -->
+
 
 </body>
 </html>

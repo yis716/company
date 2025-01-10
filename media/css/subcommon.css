@@ -1,0 +1,194 @@
+.videoBox {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute
+}
+
+#imgBG {
+    position: fixed;
+    /*고정=>fixed/ 스크롤처리=>absolute */
+    left: 50%;
+    top: 50%;
+    /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+    width: auto;
+    min-width: 100%;
+    /*동영상 너비를 꽉차게*/
+    height: auto;
+    min-height: 100%;
+    /*동영상 높이를 꽉차게*/
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.down {
+    width: 130px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.down::before {
+    content: '';
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    left: -50%;
+    bottom: -50%;
+    background: conic-gradient(transparent, #fed520, #fed520 200%);
+    animation: rotate 2.5s linear infinite;
+    z-index: -1;
+}
+
+.down::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    top: 6px;
+    background: transparent;
+}
+
+.down div {
+    width: 110px;
+    height: 60px;
+    background: url(../images/scroll.jpg) no-repeat center;
+    background-size: cover;
+    transform: translate(10px, 10px);
+}
+
+.videoBox span {
+    display: block;
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    transform: translateX(-50%);
+    animation: ani 1s infinite alternate;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 1;
+        color: #fff;
+    }
+
+    100% {
+        opacity: 0.8;
+        color: #888;
+    }
+}
+
+#content {
+    width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, .9);
+    position: relative;
+    color: #fff;
+}
+
+#content .sec {
+    padding: var(--sec1-padding);
+}
+
+@keyframes reveal {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+#content h2 {
+    position: absolute;
+    top: -380px;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    display: inline-block;
+    text-shadow: 0 8px 9px hsl(37, 25%, 69%), 0px -2px 1px #fff;
+    animation: reveal 1.5s ;
+}
+
+#content h3 {
+    font-size: 3.6rem;
+    color: transparent;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#content p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+    color: var(--p-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#content dt {
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    font-weight: 500;
+    text-align: justify;
+    word-break: break-all;
+    color: #fed520;
+    margin-bottom: 10px;
+}
+
+#content dd {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+    text-align: justify;
+    word-break: break-all;
+    color: var(--dt-color);
+    margin-bottom: 10px;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    /* 전체 padding */
+    #content .sec {
+        padding: 70px;
+    }
+    #content h3 {
+        background: none;
+        color: #fed520;
+    }
+}
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    /* 전체 padding */
+    #content .sec {
+        padding: 50px 2%;
+    }
+}

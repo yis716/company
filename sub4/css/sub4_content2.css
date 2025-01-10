@@ -28,7 +28,7 @@
     position: relative;
 }
 .content_area .con_txt li::before{
-    content: '';
+    content: "";
     display: block;
     width: 40px;
     height: 10px;

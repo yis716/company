@@ -38,11 +38,8 @@
     display: flex;
     flex-direction: column;
 }
-.content_container .con_nav ul li {
-    transition: all .5s ease-out;
-}
 
-.content_container .con_nav ul li{
+.content_container .con_nav ul li a{
     width: 300px;
     font-size: 2rem;
     font-weight: 500;
@@ -52,7 +49,7 @@
     margin: 20px 0;
     transition: all .3s ease-out;
 }
-.content_container .con_nav ul li:hover {
+.content_container .con_nav ul li:hover a{
     background: #037AFE;
     color: #fff;
     transform: translateX(-50px);
@@ -86,7 +83,7 @@
     font-size: 2.2rem;
 }
 .content_inner .table_txt h4::after{
-    content: '';
+    content: "";
     display: block;
     width: 65px;
     height: 2px;

@@ -59,7 +59,7 @@ font-family: "Roboto", sans-serif;
     background: rgba(255,255,255,.8); transition: background-color .5s;
 }
 #headerArea::before {
-    content: '';
+    content: "";
     display: block;
     width: 100%;
     height: 1px;
@@ -97,8 +97,10 @@ font-family: "Roboto", sans-serif;
      transition: all .5s;
 }
 #headerArea #gnb .dropdownmenu li .depth1::after{
-    content: ''; display: block;
-    width: 0; height: 3px;
+    content: ""; 
+    display: block;
+    width: 0; 
+    height: 3px;
     background: #3366CC;
     position: absolute; left: 50%; bottom: -6px;
     transform: translateX(-50%);
@@ -106,8 +108,10 @@ font-family: "Roboto", sans-serif;
     transition: all .3s;
   }
 #headerArea #gnb .dropdownmenu li:hover .depth1::after{
-    content: ''; display: block;
-    width: 100%; height: 3px;
+    content: ""; 
+    display: block;
+    width: 100%; 
+    height: 3px;
     background: #3366CC;
     left: 50%; bottom: -6px;
     transform: translateX(-50%);
@@ -149,8 +153,10 @@ font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
 #headerArea .top_menu a:hover::after{
-  content: ''; display: block;
-    width: 100%; height: 2px;
+    content: ""; 
+    display: block;
+    width: 100%; 
+    height: 2px;
     background: #037AFE;
     left: 0; bottom: 0;
 }
@@ -202,16 +208,28 @@ font-family: "Roboto", sans-serif;
 #footerArea .footer_left ul{
     position: relative;
 }
-#footerArea .footer_left .left_txt1::before{content: '';
-    border: 1px solid #ccc; height: 72px;
+#footerArea .footer_left .left_txt1::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 72px;
+    background: #ccc;
     position: absolute; left: 170px; top: 0;
 }
-#footerArea .footer_left .left_txt2::before{content: '';
-    border: 1px solid #ccc; height: 72px;
+#footerArea .footer_left .left_txt2::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 72px;
+    background: #ccc;
     position: absolute; left: 400px; top: 0;
 }
-#footerArea .footer_left .left_txt3::before{content: '';
-    border: 1px solid #ccc; height: 72px;
+#footerArea .footer_left .left_txt3::before{
+    content: "";    
+    display: block;
+    width: 1px;
+    height: 72px;
+    background: #ccc;
     position: absolute; left: 650px; top: 0;
 }
 #footerArea .footer_left dt{

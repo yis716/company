@@ -104,7 +104,7 @@
     transform: translate(20px);
 }
 .content_area .map_content1 p::before{
-    content: '';
+    content: "";
     display: block;
     background: #eee;
     width: 340px;
@@ -215,7 +215,7 @@
     margin-bottom: 70px;
 }
 .content_area .map_content3 p::before{
-    content: '';
+    content: "";
     display: block;
     background: #eee;
     width: 340px;

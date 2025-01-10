@@ -82,7 +82,7 @@
     position: relative;
 }
 #content .title_area p::after{
-    content: '';
+    content: "";
     display: block;
     width: 3px; height: 100px;
     background: #037AFE;

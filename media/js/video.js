@@ -20,6 +20,9 @@ $(document).ready(function() {
           $("#imgBG").show();
           current=false;
       }
+      if (screenSize <= 1280) {
+          $("#imgBG").attr('src', './images/back.jpg');
+      }
       if (screenSize <= 1024) {
           $("#imgBG").attr('src', './images/back2.jpg');
       }

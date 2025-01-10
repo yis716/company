@@ -36,12 +36,12 @@
   }
 }
 .down {
-  width: 80px;
-  height: 130px;
+  width: 130px;
+  height: 80px;
   display: block;
   position: absolute;
   left: 50%;
-  margin-left: -3%;
+  transform: translateX(-50%);
   bottom: 10%;
   box-sizing: border-box;
   overflow: hidden;
@@ -69,9 +69,9 @@
   background: transparent;
 }
 .down div{
-  width: 60px;
-  height: 110px;
-  background: url(../images/scroll_2.jpg) no-repeat center;
+  width: 110px;
+  height: 60px;
+  background: url(../images/scroll.jpg) no-repeat center;
   background-size: cover;
   transform: translate(10px,10px);
 }
@@ -83,18 +83,18 @@
   text-align: center;
   font-size: 1.1rem;
   color: #fff;
-  margin-left: -4%;
+  transform: translateX(-50%);
   animation: ani 1s infinite alternate;
 }
 
 @keyframes ani {
   0% {
-    transform: scale(1);
+   
     opacity: 1;
     color: #fff;
   }
   100% {
-    transform: scale(1.2);
+   
     opacity: 0.8;
     color: #888;
   }
@@ -103,24 +103,16 @@
 #content {
   width: 100%;
   margin: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, .9);
 }
 #content .more {
   font-size: 1rem;
   color: var(--span-color);
   position: relative;
   border-bottom: 1px solid #fed520;
-  transition: all 0.3s ease-out;
+  transition: all .3s ease-out;
+  display: inline-block;
 }
-/* #content .more::before{
-   content: '';
-   display: block;
-   width: 76px;
-   height: 1px;
-   background: var(--before-background-color);
-   position: absolute;
-   top: -5px;
-} */
 #content .more:hover {
   padding: 5px 30px;
   border: 2px solid #fed520;
@@ -150,7 +142,7 @@
   font-size: var(--strong-font-size);
   color: var(--strong-color);
   display: block;
-  margin: 5px 0 20px;
+  margin: 5px 0 30px;
 }
 #content .sec1 dt,
 #content .sec1 dd {
@@ -204,7 +196,10 @@
 #content .his_container ul li:nth-child(7) {
   grid-area: g;
 }
-
+#content .his_container ul li:nth-child(1) p:nth-of-type(1),
+#content .his_container ul li:nth-child(7) p:nth-of-type(1){
+  margin-bottom: 10px;
+}
 /* animals */
 #content .animals {
   background: url(../images/animals/ani_back.png) rgba(44, 83, 100, 0.6) center;
@@ -299,13 +294,9 @@
   transform: skewX(-25deg);
   opacity: 0;
 }
-/* #content .animals .ani_txt:hover{
-   
-} */
+
 #content .animals .ani_txt:hover img {
   transform: scale(1.1);
-  /* border-radius: 50px;
-      border: 2px solid #fff; */
 }
 #content .animals .ani_txt:hover figure::before {
   animation: shine 0.75s;
@@ -377,12 +368,11 @@
 #content .env_bottom .bm2 li:nth-child(4) {
   grid-area: d;
 }
-#content .env_bottom ul li figure>div{
-  width: 100%;
+#content .env_bottom ul li figure{
   height: 100%;
 }
-
-#content .env_bottom ul li figure{
+#content .env_bottom ul li figure>div {
+  width: 100%;
   height: 100%;
 }
 #content .env_bottom ul li figure > div img {
@@ -481,178 +471,6 @@
   top: 1%;
 }
 
-/* feature film 영역 */
-/* .feature .inWrap {
-  position: relative;
-}
-
-.feature .fInner {
-  margin: 0 auto;
-  width: 85%;
-  overflow: hidden;
-  padding-bottom: 1%;
-}
-
-.feature li {
-  float: left;
-  width: 188px;
-  height: 282px;
-  margin-bottom: 4em;
-  list-style: none
-}
-
-.feature li a {
-  position: relative;
-  display: block;
-  background: #f0f0f0;
-  height: 100%;
-  margin: 0 3%;
-  box-shadow: 2px 2px 5px gray;
-  text-align: center;
-}
-
-.feature li span {
-  display: block;
-  position: absolute;
-  bottom: -3em;
-  width: 100%;
-  color: #333;
-  font-size: 1em;
-  font-weight: 400;
-}
-
-.feature li:nth-child(1) a {
-  background: url(../images/fitem01.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(2) a {
-  background: url(../images/fitem02.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(3) a {
-  background: url(../images/fitem03.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(4) a {
-  background: url(../images/fitem04.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(5) a {
-  background: url(../images/fitem05.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(6) a {
-  background: url(../images/fitem06.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(7) a {
-  background: url(../images/fitem07.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(8) a {
-  background: url(../images/fitem08.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(9) a {
-  background: url(../images/fitem09.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(10) a {
-  background: url(../images/fitem10.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(11) a {
-  background: url(../images/fitem11.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(12) a {
-  background: url(../images/fitem12.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(13) a {
-  background: url(../images/fitem13.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(14) a {
-  background: url(../images/fitem14.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(15) a {
-  background: url(../images/fitem15.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature li:nth-child(16) a {
-  background: url(../images/fitem16.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.feature .swiper-pagination {
-  position: relative;
-  margin-top: 30px;
-}
-
-.feature .swiper-pagination-progress .swiper-pagination-progressbar {
-  background: rgba(4, 178, 217, 1);
-}
-
-.feature .button div {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: rgba(4, 178, 217, 1);
-  color: #fff;
-  border-radius: 50%;
-  text-align: center;
-  top: 50%;
-  box-shadow: 2px 2px 5px gray;
-  transition: all 0.2s
-}
-
-.feature .button div:active {
-  transform: translate(2px, 2px);
-}
-
-.feature .button a {
-  display: block;
-  height: 100%;
-}
-
-.feature .back a {
-  background: url(../images/back.svg) center center no-repeat;
-  background-size: 30px 30px;
-  text-indent: -999px;
-  overflow: hidden;
-}
-
-.feature .next a {
-  background: url(../images/next.svg) center center no-repeat;
-  background-size: 30px 30px;
-  text-indent: -999px;
-  overflow: hidden;
-}
-
-.feature .back {
-  left: 1%;
-}
-
-.feature .next {
-  right: 1%;
-} */
 /* space1 */
 #content .space1 {
   height: 200px;
@@ -846,9 +664,6 @@
 
 /* 일반 pc */
 @media screen and (max-width: 1280px) {
-  .videoBox span {
-    margin-left: -4.5%;
-  }
   /* history */
   #content .his_container ul li:nth-child(1) p:nth-of-type(2) {
       display: none;
@@ -885,9 +700,6 @@
 
 /* 테블릿 */
 @media screen and (max-width: 1024px) {
-  .videoBox span {
-    margin-left: -4.8%;
-  }
   /*전체 섹션 여백조정*/
   #content .sec1 {
     padding: 70px;
@@ -1052,9 +864,6 @@
 
 /* 소형 테블릿 */
 @media screen and (max-width: 768px) {
-  .videoBox span {
-      margin-left: -5.4%;
-    }
   /*전체 섹션 여백조정*/
     /* #content .sec1 {
       padding: 50px;
@@ -1183,9 +992,6 @@
 
 /* 모바일 */
 @media screen and (max-width: 640px) {
-  .videoBox span {
-    margin-left: -5.8%;
-  }
   /*전체 섹션 여백조정*/
   #content .sec1 {
     padding: 50px 2%;

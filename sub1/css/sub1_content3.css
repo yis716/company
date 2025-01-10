@@ -81,7 +81,7 @@
     font-weight: 700;
 }
 .history span::before{
-    content: '';
+    content: "";
     display: block;
     width: 250px;
     height: 5px;

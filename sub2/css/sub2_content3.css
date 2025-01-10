@@ -12,7 +12,7 @@
     font-size: 1rem;
 }
 #content .title_area p::after{
-    content: '';
+    content: "";
     display: block;
     width: 3px; height: 100px;
     background: #CCDB2A;
@@ -64,7 +64,7 @@
     margin-bottom: 150px;
 }
 .content_area .con_brand h3::after{
-    content: '';
+    content: "";
     display: block;
     width: 350px;
     height: 2px;
@@ -103,7 +103,7 @@
     margin-bottom: 100px;
 }
 .content_area .con_point h3::after{
-    content: '';
+    content: "";
     display: block;
     width: 350px;
     height: 2px;
@@ -130,7 +130,7 @@
     font-size: 2.5rem;
 }
 .content_area .con_point ul .con_core1 p::before{
-    content: '';
+    content: "";
     display: block;
     width: 120px;
     height: 120px;
@@ -139,7 +139,7 @@
     position: absolute; right: 630px; top: 15px;
 }
 .content_area .con_point ul .con_core2 p::before{
-    content: '';
+    content: "";
     display: block;
     width: 120px;
     height: 120px;
@@ -148,7 +148,7 @@
     position: absolute; right: 630px; top: 15px;
 }
 .content_area .con_point ul .con_core3 p::before{
-    content: '';
+    content: "";
     display: block;
     width: 120px;
     height: 120px;
@@ -157,7 +157,7 @@
     position: absolute; right: 630px; top: 15px;
 }
 .content_area .con_point ul .con_core4 p::before{
-    content: '';
+    content: "";
     display: block;
     width: 120px;
     height: 120px;
@@ -166,7 +166,7 @@
     position: absolute; right: 630px; top: 15px;
 }
 .content_area .con_point ul .con_core5 p::before{
-    content: '';
+    content: "";
     display: block;
     width: 120px;
     height: 120px;
@@ -189,7 +189,7 @@
     margin-bottom: 70px;
 }
 .content_area .con_ccm p:nth-child(2)::after{
-    content: '';
+    content: "";
     display: block;
     width: 350px;
     height: 2px;
@@ -290,7 +290,7 @@
     margin-bottom: 70px;
 }
 .content_area .con_channel h3::after{
-    content: '';
+    content: "";
     display: block;
     width: 350px;
     height: 2px;
@@ -302,7 +302,8 @@
     position: relative;
 }
 .content_area .con_channel .ch_list1::before{
-    content: '';
+    content: "";
+    display: block;
     position: absolute; top: 0; left: 0;
     width: 1400px;
     height: 300px;
@@ -316,7 +317,8 @@
     position: relative;
 }
 .content_area .con_channel .ch_list2::before{
-    content: '';
+    content: "";
+    display: block;
     position: absolute; top: 0; left: 0;
     width: 1400px;
     height: 300px;
@@ -325,7 +327,8 @@
     position: relative;
 }
 .content_area .con_channel .ch_list3::before{
-    content: '';
+    content: "";
+    display: block;
     position: absolute; top: 0; left: 0;
     width: 1400px;
     height: 300px;
@@ -334,7 +337,8 @@
     position: relative;
 }
 .content_area .con_channel .ch_list4::before{
-    content: '';
+    content: "";
+    display: block;
     position: absolute; top: 0; left: 0;
     width: 1400px;
     height: 300px;
@@ -361,7 +365,7 @@
     margin-bottom: 70px;
 }
 .content_area .con_program h3::after{
-    content: '';
+    content: "";
     display: block;
     width: 350px;
     height: 2px;

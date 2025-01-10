@@ -37,7 +37,7 @@
     z-index: 0;
 }
 .content_area .con_tit h3::before{
-    content: '';
+    content: "";
     display: block;
     width: 70px;
     height: 70px;

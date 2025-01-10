@@ -129,20 +129,32 @@
 #content .company_right span{ 
     font-size: 1.8rem; font-weight: 700;
 }
-#content .company_con1::before{content: '';
-    border: 1px solid #ccc; height: 300px;
-    position: absolute; left: -30px; top: 50px;
+#content .company_con1::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 300px;
+    background: #ccc;
+    position: absolute; 
+    left: -30px; 
+    top: 50px;
     opacity: .5;
 }
 #content .company_con2::before{
-    content: '';
-    border: 1px solid #ccc; height: 300px;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 300px;
+    background: #ccc;
     position: absolute; left: 310px; top: 50px;
     opacity: .5;
 }
 #content .company_con2::after{
-    content: '';
-    border: 1px solid #ccc; height: 300px;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 300px;
+    background: #ccc;
     position: absolute; right: 0; top: 50px;
     opacity: .5;
 }
@@ -270,7 +282,7 @@ color: #fff;
     position: relative;
 }
 #content .brand:after{
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 600px;
@@ -297,7 +309,7 @@ color: #fff;
     box-sizing: border-box;
 }
 #content .brand .brand_inner::after{
-    content: '';
+    content: "";
     display: block;
     position: absolute; bottom: 50px; left: -400px;
     z-index: -6;
@@ -343,12 +355,13 @@ color: #fff;
 #content .brand .brand_inner .more span{
     position: relative; left: 5px; top: 1px;
 }
-#content .brand .brand_inner .inner_left{
+/* #content .brand .brand_inner .inner_left{
     float: left;
-}
+} */
 #content .brand .brand_inner .inner_right{
     width: 1200px;
-    float: right; border-left: 1px solid #ccc;
+    /* float: right;  */
+    border-left: 1px solid #ccc;
 }
 #content .brand .inner_right ul{
     width: 1200px; 
@@ -381,7 +394,8 @@ color: #fff;
     color: #01D3E9;
 }
 #content .brand a .con1_left h4:after{
-    content: '';
+    content: "";
+    display: block;
     width: 155px; height: 1px; background: #333;
     position: absolute; left: 0; top: 47px; 
     transition: all .5s ease-out;
@@ -389,7 +403,7 @@ color: #fff;
     transform-origin: left;
 }
 #content .brand a:hover .con1_left h4:after{
-    content: '';
+    content: "";
     transform: scaleX(1);
 }
 #content .brand .con1_left .brand_letter1{
@@ -441,9 +455,11 @@ color: #fff;
     transition: all .8s ease-out;
 }
 #content .brand .con1_right::before{
-    content: '';
-    border: 1px solid #ccc;
+    content: "";
+    display: block;
+    width: 1px;
     height: 450px;
+    background: #ccc;
     position: absolute;
     left: -50px;
     top: 0;
@@ -479,7 +495,8 @@ color: #fff;
     color: #216E57;
 }
 #content .brand a .con2_right h4:after{
-    content: '';
+    content: "";
+    display: block;
     width: 365px; 
     height: 1px; 
     background: #333;
@@ -492,7 +509,7 @@ color: #fff;
     transform-origin: left;
 }
 #content .brand a:hover .con2_right h4:after{
-    content: '';
+    content: "";
     transform: scaleX(1);
 }
 #content .brand .con2_right .brand_txt2{
@@ -545,8 +562,10 @@ color: #fff;
     height: 450px;
 }
 #content .brand .con2_left::after{
-    content: '';
-    border: 1px solid #ccc;
+    content: "";
+    display: block;
+    width: 1px;
+    background: #ccc;
     height: 450px;
     position: absolute;
     left: 550px;
@@ -577,7 +596,8 @@ color: #fff;
     color: #565538;
 }
 #content .brand a .con3_left h4:after{
-    content: '';
+    content: "";
+    display: block;
     width: 245px; 
     height: 1px; 
     background: #333;
@@ -589,7 +609,7 @@ color: #fff;
     transform-origin: left;
 }
 #content .brand a:hover .con3_left h4:after{
-    content: '';
+    content: "";
     transform: scaleX(1);
 }
 #content .brand .con3_left .brand_letter2{
@@ -636,9 +656,11 @@ color: #fff;
     height: 450px;
 }
 #content .brand .con3_right::before{
-    content: '';
-    border: 1px solid #ccc;
+    content: "";
+    display: block;
+    width: 1px;
     height: 450px;
+    background: #ccc;
     position: absolute;
     left: -50px;
     top: 0;
@@ -672,7 +694,8 @@ color: #fff;
     color: #333;
 }
 #content .brand a .con4_right h4:after{
-    content: '';
+    content: "";
+    display: block;
     width: 195px; 
     height: 1px; 
     background: #333;
@@ -685,7 +708,7 @@ color: #fff;
     transform-origin: left;
 }
 #content .brand a:hover .con4_right h4:after{
-    content: '';
+    content: "";
     transform: scaleX(1);
 }
 #content .brand .con4_right .brand_letter3{
@@ -725,9 +748,11 @@ color: #fff;
     position: relative;
 }
 #content .brand .con4_left::after{
-    content: '';
-    border: 1px solid #ccc;
+    content: "";
+    display: block;
+    width: 1px;
     height: 450px;
+    background: #ccc;
     position: absolute;
     left: 550px;
     top: 0;
